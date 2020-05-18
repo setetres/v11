@@ -12,10 +12,6 @@
         mounted() {
             this.$nextTick(() => {
                 document.querySelector('.logo').classList.add('logo--home')
-
-                document.querySelectorAll('.reveal').forEach(function(item) {
-                    item.classList.add('reveal--active')
-                })
             })
         },
 
