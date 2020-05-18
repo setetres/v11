@@ -1,0 +1,28 @@
+.section--about {
+    opacity: 1;
+
+    .cover {
+        align-items: stretch;
+
+        .ooo-container {
+            color: var(--color-background);
+            z-index: 2;
+        }
+
+        &__content {
+            video {
+                filter: grayscale(100%) contrast(120%) brightness(37%) invert(0%);
+            }
+        }
+    }
+}
+
+body.dark-mode {
+    .section--about {
+        .cover__content {
+            video {
+                filter: grayscale(100%) contrast(120%) brightness(37%) invert(100%);
+            }
+        }
+    }
+}

@@ -1,0 +1,133 @@
+:root {
+    --border-width: 1px;
+    --color-foreground: #000000;
+    --color-background: #ffffff;
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-primary: blue;
+    --color-secondary: #777777;
+    --color-tertiary: #ff0030;
+    --font-size: 4.5vw;
+    --font-family: 'Times New Roman', times, serif;
+    --font-family-script: sudestada, sans-serif;
+    --grid-columns: 12;
+    --gutter: 2.5vw;
+    --gutter-half: 1.25vw;
+    --letter-spacing: .1vw;
+    --setetres-font-weight: 2px;
+    --setetres-font-weight-half: 1px;
+    --spacer-0: 0; // 0px
+    --spacer-1: .1875rem; // 3px
+    --spacer-2: .375rem; // 6px
+    --spacer-3: .75rem; // 12px
+    --spacer-4: 1.5rem; // 24px
+    --spacer-5: 3rem; // 48px
+    --spacer-6: 6rem; // 96px
+    --spacer-7: 12rem; // 192px
+    --spacer-8: 24rem; // 384px
+    --transition-timing: 500ms;
+    --transition-easing: cubic-bezier(.2, 1, .2, 1);
+}
+
+@import 'ooo/ooo';
+@import 'about';
+@import 'archive';
+@import 'cover';
+@import 'dark-mode';
+@import 'embed';
+@import 'home';
+@import 'inkstarter';
+@import 'link';
+@import 'logo';
+@import 'menu';
+@import 'mncrft';
+@import 'placeholder';
+@import 'reveal';
+@import 'section';
+@import 'setetres';
+@import 'xxxxxxxooo';
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: var(--color-white);
+    box-sizing: border-box;
+    -moz-osx-font-smoothing: none;
+    -webkit-font-smoothing: none;
+    image-rendering: pixelated;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    user-select: none;
+
+    body {
+        background-color: var(--color-background);
+        color: var(--color-black);
+        font-family: var(--font-family);
+        font-size: var(--font-size);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.2;
+        transition: background-color var(--transition-timing) var(--transition-easing);
+
+        @include media-breakpoint-up(lg) {
+            font-size: calc(var(--font-size) / 2);
+        }
+    }
+}
+
+.nuxt-progress {
+    @extend %background-waves;
+
+    z-index: 1;
+}
+
+.application {
+    min-height: 100vh;
+    position: relative;
+    transition: background-color var(--transition-timing) var(--transition-easing);
+    z-index: 2;
+}
+
+.small {
+    color: var(--color-secondary);
+    font-size: 12px;
+    letter-spacing: .1vw;
+    line-height: 1;
+    margin-bottom: calc(var(--gutter) / 2);
+    text-transform: uppercase;
+}
+
+hr {
+    background-color: var(--color-foreground);
+    border: 0;
+    display: block;
+    height: 1px;
+    margin: var(--gutter) auto;
+}
+
+.gutter {
+    display: block;
+    padding: calc(var(--gutter) * 2);
+
+    @include media-breakpoint-up(lg) {
+        padding: var(--gutter);
+    }
+
+    &--half {
+        padding: calc(var(--gutter-half) * 2);
+
+        @include media-breakpoint-up(lg) {
+            padding: var(--gutter-half);
+        }
+    }
+}
+
+._w-100 {
+    width: 100%;
+}

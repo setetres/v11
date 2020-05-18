@@ -1,0 +1,66 @@
+@import 'setetres/s';
+@import 'setetres/e';
+@import 'setetres/t';
+@import 'setetres/r';
+
+:root {
+    --color-setetres: var(--color-background);
+}
+
+.setetres {
+    bottom: var(--gutter);
+    display: flex;
+    left: var(--gutter);
+    margin: 0;
+    pointer-events: none;
+    position: absolute;
+    right: var(--gutter);
+    top: var(--gutter);
+    transition:
+        top var(--transition-timing) var(--transition-easing),
+        right var(--transition-timing) var(--transition-easing),
+        bottom var(--transition-timing) var(--transition-easing),
+        left var(--transition-timing) var(--transition-easing);
+
+    @include media-breakpoint-up(lg) {
+        bottom: var(--gutter-half);
+        left: var(--gutter-half);
+        right: var(--gutter-half);
+        top: var(--gutter-half);
+    }
+
+    &__letter {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        margin: 0 calc(var(--setetres-font-weight) * 4);
+        overflow: hidden;
+        position: relative;
+        width: 12.5%;
+
+        @include media-breakpoint-up(lg) {
+            margin: 0 calc(var(--setetres-font-weight) * 2);
+        }
+
+        div {
+            &::before,
+            &::after {
+                background-color: var(--color-setetres);
+                content: '';
+                display: block;
+                position: absolute;
+                transition: background-color var(--transition-timing) var(--transition-easing);
+            }
+        }
+    }
+
+    &--loaded {
+        .setetres__letter div {
+            &::before,
+            &::after {
+                transition-delay: 0ms;
+            }
+        }
+    }
+}

@@ -1,0 +1,97 @@
+$spacers: (
+    0: 0, // 0px
+    1: .1875rem, // 3px
+    2: .375rem, // 6px
+    3: .75rem, // 12px
+    4: 1.5rem, // 24px
+    5: 3rem, // 48px
+    6: 6rem, // 96px
+    7: 12rem, // 192px
+    8: 24rem // 384px
+);
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+    @include media-breakpoint-up($breakpoint) {
+        $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+        @each $prop, $abbrev in (margin: m, padding: p) {
+            @each $size, $length in $spacers {
+                ._#{$abbrev}#{$infix}-#{$size} {
+                    #{$prop}: $length !important;
+                }
+
+                ._#{$abbrev}t#{$infix}-#{$size},
+                ._#{$abbrev}y#{$infix}-#{$size} {
+                    #{$prop}-top: $length !important;
+                }
+
+                ._#{$abbrev}r#{$infix}-#{$size},
+                ._#{$abbrev}x#{$infix}-#{$size} {
+                    #{$prop}-right: $length !important;
+                }
+
+                ._#{$abbrev}b#{$infix}-#{$size},
+                ._#{$abbrev}y#{$infix}-#{$size} {
+                    #{$prop}-bottom: $length !important;
+                }
+
+                ._#{$abbrev}l#{$infix}-#{$size},
+                ._#{$abbrev}x#{$infix}-#{$size} {
+                    #{$prop}-left: $length !important;
+                }
+            }
+        }
+
+        @each $size, $length in $spacers {
+            @if $size != 0 {
+                ._m#{$infix}-n#{$size} {
+                    margin: -$length !important;
+                }
+
+                ._mt#{$infix}-n#{$size},
+                ._my#{$infix}-n#{$size} {
+                    margin-top: -$length !important;
+                }
+
+                ._mr#{$infix}-n#{$size},
+                ._mx#{$infix}-n#{$size} {
+                    margin-right: -$length !important;
+                }
+
+                ._mb#{$infix}-n#{$size},
+                ._my#{$infix}-n#{$size} {
+                    margin-bottom: -$length !important;
+                }
+
+                ._ml#{$infix}-n#{$size},
+                ._mx#{$infix}-n#{$size} {
+                    margin-left: -$length !important;
+                }
+            }
+        }
+
+        ._m#{$infix}-auto {
+            margin: auto !important;
+        }
+
+        ._mt#{$infix}-auto,
+        ._my#{$infix}-auto {
+            margin-top: auto !important;
+        }
+
+        ._mr#{$infix}-auto,
+        ._mx#{$infix}-auto {
+            margin-right: auto !important;
+        }
+
+        ._mb#{$infix}-auto,
+        ._my#{$infix}-auto {
+            margin-bottom: auto !important;
+        }
+
+        ._ml#{$infix}-auto,
+        ._mx#{$infix}-auto {
+            margin-left: auto !important;
+        }
+    }
+}

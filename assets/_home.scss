@@ -1,0 +1,8 @@
+.section--home {
+    .pattern {
+        @extend %background-stripes-black;
+
+        display: block;
+        width: 100%;
+    }
+}
