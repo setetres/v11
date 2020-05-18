@@ -11,14 +11,11 @@
     export default {
         mounted() {
             this.$nextTick(() => {
-                document.querySelector('.logo').classList.add('logo--home')
             })
         },
 
         beforeRouteLeave(to, from, next) {
             setTimeout(function() {
-                document.querySelector('.logo').classList.add('logo--home')
-
                 next()
             }, 500)
         },

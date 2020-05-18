@@ -171,9 +171,6 @@
 </template>
 <script>
     export default {
-        components: {
-        },
-
         mounted() {
             this.$nextTick(() => {
                 var setetres = document.querySelector('.setetres')
@@ -195,11 +192,11 @@
                     bodyClass()
                 })
 
-                setetres.classList.remove('setetres--loading')
-
-                bodyClass()
-
                 setTimeout(function() {
+                    bodyClass()
+
+                    setetres.classList.remove('setetres--loading')
+
                     document.querySelectorAll('.reveal').forEach(function(item) {
                         item.classList.add('reveal--active')
                     })

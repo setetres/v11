@@ -14,10 +14,6 @@
 </template>
 <script>
     export default {
-
-        components: {
-        },
-
         props: {
             error: {
                 type: Object,

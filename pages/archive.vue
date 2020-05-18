@@ -43,9 +43,6 @@
 </template>
 <script>
     export default {
-        components: {
-        },
-
         mounted() {
             this.$nextTick(() => {
                 document.querySelector('.logo').classList.add('logo--archive')
