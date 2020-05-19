@@ -21,7 +21,7 @@ export default {
             { hid: 'og:image', property: 'og:image', content: 'https://setetres.st/images/share.png' },
             { hid: 'og:url', property: 'og:url', content: 'https://setetres.st' },
 
-            { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
+            { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
             { hid: 'twitter:title', name: 'twitter:title', content: 'Sete Três' },
             { hid: 'twitter:description', name: 'twitter:description', content: 'Hello, my name is Guilherme Pangnotta. Born and raised in São Paulo now living in Belo Horizonte, Brazil. Currently working as a Product Designer at Hotmart, Tattoo Artist at InkStarter and also a member of the Awwwards Jury.' },
             { hid: 'twitter:image', name: 'twitter:image', content: 'https://setetres.st/images/share.png' }
