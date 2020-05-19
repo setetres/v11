@@ -158,7 +158,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <a href="https://bit.ly/FEINOUTNOW" class="_d-inline-flex" target="_target" rel="noopener"><img alt="XXXXXXXOOO" src="https://img.shields.io/badge/FEIN-OUT_NOW-red" class="_d-block"></a>
+                                    <a href="https://xxxxxxx.ooo" class="_d-inline-flex" target="_target" rel="noopener"><img alt="XXXXXXXOOO" src="https://img.shields.io/badge/FEIN-OUT_NOW-red" class="_d-block"></a>
                                 </li>
                             </ul>
                         </nav>
