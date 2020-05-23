@@ -80,11 +80,10 @@
                                         <li class="menu__item">
                                             <div class="reveal reveal--bottom">
                                                 <div>
-                                                    <nuxt-link to="/fein" class="link link--internal link--fein" active-class="link--active">
+                                                    <nuxt-link to="/inkstarter" class="link link--internal link--inkstarter" active-class="link--active">
                                                         <p class="small">3.</p>
                                                         <span class="link__icon" />
-                                                        FEIN
-                                                        <p class="small _ml-3">New</p>
+                                                        InkStarter
                                                     </nuxt-link>
                                                 </div>
                                             </div>
@@ -92,10 +91,10 @@
                                         <li class="menu__item">
                                             <div class="reveal reveal--bottom">
                                                 <div>
-                                                    <nuxt-link to="/inkstarter" class="link link--internal link--inkstarter" active-class="link--active">
+                                                    <nuxt-link to="/lifestream" class="link link--internal link--lifestream" active-class="link--active">
                                                         <p class="small">4.</p>
                                                         <span class="link__icon" />
-                                                        InkStarter
+                                                        Lifestream
                                                     </nuxt-link>
                                                 </div>
                                             </div>
@@ -109,10 +108,10 @@
                                         <li class="menu__item">
                                             <div class="reveal reveal--bottom">
                                                 <div>
-                                                    <nuxt-link to="/lifestream" class="link link--internal link--lifestream" active-class="link--active">
+                                                    <nuxt-link to="/mncrft" class="link link--internal link--mncrft" active-class="link--active">
                                                         <p class="small">5.</p>
                                                         <span class="link__icon" />
-                                                        Lifestream
+                                                        MNCRFT
                                                     </nuxt-link>
                                                 </div>
                                             </div>
@@ -120,10 +119,11 @@
                                         <li class="menu__item">
                                             <div class="reveal reveal--bottom">
                                                 <div>
-                                                    <nuxt-link to="/mncrft" class="link link--internal link--mncrft" active-class="link--active">
+                                                    <nuxt-link to="/music" class="link link--internal link--music" active-class="link--active">
                                                         <p class="small">6.</p>
                                                         <span class="link__icon" />
-                                                        MNCRFT
+                                                        MUSIC
+                                                        <p class="small _ml-3">New</p>
                                                     </nuxt-link>
                                                 </div>
                                             </div>
