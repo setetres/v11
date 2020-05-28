@@ -11,12 +11,12 @@
             <div class="gutter">
                 <div class="ooo-container _p-0">
                     <div class="ooo-row">
-                        <div class="ooo-col-md-10">
+                        <div class="ooo-col-12">
                             <p class="section__title">
                                 Crowdsourcing tattoo project where I tattooed myself with the 7 most voted drawings chosen by the Internet people.
                             </p>
                         </div>
-                        <div class="ooo-col-md-10">
+                        <div class="ooo-col-12">
                             <p>Would you tattoo a random drawing made by a complete stranger? I did. Seven of them.</p>
                             <p>InkStarter was/is a project which I tattooed myself with random drawings chosen by random people. Without knowing anything about drawing and even less about tattooing or even held a machine.</p>
                             <p class="_mb-0">How far can a human being go with this kind of power on his hands? Pretty far.</p>

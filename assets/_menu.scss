@@ -2,7 +2,7 @@
     font-size: var(--font-size);
     font-style: italic;
     letter-spacing: -.05vw;
-    line-height: 1.2;
+    line-height: 1.15;
 
     @include media-breakpoint-up(lg) {
         font-size: calc(var(--font-size) / 2);

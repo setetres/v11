@@ -3,7 +3,7 @@
         <div class="gutter _pt-0">
             <div class="ooo-container _p-0 _w-100">
                 <div class="ooo-row">
-                    <div class="ooo-col-lg-3">
+                    <div class="ooo-col-sm-6 ooo-col-lg-3">
                         <hr>
                         <p class="small">v. eleven</p>
                         <h1 class="logo">
@@ -48,11 +48,11 @@
                             </nuxt-link>
                         </h1>
                     </div>
-                    <div class="ooo-col-md-9 ooo-col-lg-6">
+                    <div class="ooo-col-sm-6 ooo-col-lg-7">
                         <hr>
                         <p class="small">Content</p>
                         <div class="ooo-row">
-                            <div class="ooo-col-6">
+                            <div class="ooo-col-6 ooo-col-sm-12 ooo-col-lg-6">
                                 <nav class="menu">
                                     <ul>
                                         <li class="menu__item">
@@ -102,7 +102,7 @@
                                     </ul>
                                 </nav>
                             </div>
-                            <div class="ooo-col-6">
+                            <div class="ooo-col-6 ooo-col-sm-12 ooo-col-lg-6">
                                 <nav class="menu">
                                     <ul>
                                         <li class="menu__item">
@@ -145,7 +145,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="ooo-col-md-3">
+                    <div class="ooo-col-12 ooo-col-lg-2">
                         <hr>
                         <p class="small">Misc.</p>
                         <nav class="menu">
@@ -192,15 +192,15 @@
                     bodyClass()
                 })
 
-                setTimeout(function() {
-                    bodyClass()
+                bodyClass()
 
+                setTimeout(function() {
                     setetres.classList.remove('setetres--loading')
 
                     document.querySelectorAll('.reveal').forEach(function(item) {
                         item.classList.add('reveal--active')
                     })
-                }, 500)
+                }, 100)
 
                 setTimeout(function() {
                     setetres.classList.add('setetres--loaded')

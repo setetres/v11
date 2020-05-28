@@ -15,23 +15,11 @@
                         <p class="section__title">
                             Got stung by the Minecraft fever.
                         </p>
-                        <p class="section__title">
-                            Building a (Yet Another) Minecraft City.
-                        </p>
                     </div>
                     <div class="ooo-col-12">
                         <p>
                             I'm not trying to be a <em>Redstone Mad Scientist</em> or a <em>1:1 Scale 3D Pixel Art Freaking Builder</em>. This is not an attempt to become a Minecraft professional. I'm just trying to have fun. Everything here is a work in progress and nothing will ever be finished. Might add other screenshots and/or projects, who knows...
                         </p>
-                    </div>
-                </div>
-                <div class="ooo-row">
-                    <div class="ooo-col-12">
-                        <p>
-                            <a href="http://bit.ly/XXXXXXXOOOCITY001" class="link link--external link--button _mr-4" target="_blank" rel="noopener">Download 0.0.1</a>
-                            <em>Latest version</em>
-                        </p>
-                        <p class="small _mb-0">*for Minecraft 1.14.4 (shader compatibility).</p>
                     </div>
                 </div>
             </div>
@@ -56,29 +44,6 @@
                     </div>
                     <div class="ooo-col-12">
                         <img src="/images/mncrft-06.jpg" width="2560" height="1440" class="_mb-0">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="gutter">
-            <div class="ooo-container _p-0">
-                <div class="ooo-row">
-                    <div class="ooo-col-12">
-                        <p class="section__title">
-                            Changelog
-                        </p>
-                        <p><strong>Version 0.0.1</strong></p>
-                        <ul>
-                            <li>Spawn at 0, 1, 0 (Ground Zero);</li>
-                            <li>
-                                Points of interest:
-                                <ul>
-                                    <li>
-                                        <strong>Added:</strong> Avenues and first roads, Hotel, City Map, Tiki Bar, Flying Balloon, Abandoned Observatory, Gas Station, Flower Shop, Construction building with crane;
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
