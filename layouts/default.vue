@@ -131,8 +131,20 @@
                                         <li class="menu__item">
                                             <div class="reveal reveal--bottom">
                                                 <div>
-                                                    <nuxt-link to="/xxxxxxxooo" class="link link--internal link--xxxxxxxooo" active-class="link--active">
+                                                    <nuxt-link to="/veeews" class="link link--internal link--veeews" active-class="link--active">
                                                         <p class="small">7.</p>
+                                                        <span class="link__icon" />
+                                                        Veeews
+                                                        <p class="small _ml-3">New</p>
+                                                    </nuxt-link>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="menu__item">
+                                            <div class="reveal reveal--bottom">
+                                                <div>
+                                                    <nuxt-link to="/xxxxxxxooo" class="link link--internal link--xxxxxxxooo" active-class="link--active">
+                                                        <p class="small">8.</p>
                                                         <span class="link__icon" />
                                                         XO
                                                         <p class="small _ml-3">New</p>

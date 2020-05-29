@@ -7,7 +7,7 @@
     --color-primary: blue;
     --color-secondary: #777777;
     --color-tertiary: #ff0030;
-    --font-size: 6.2vw;
+    --font-size: 6vw;
     --font-family: 'Times New Roman', times, serif;
     --font-family-script: sudestada, sans-serif;
     --grid-columns: 12;
@@ -45,6 +45,7 @@
 @import 'reveal';
 @import 'section';
 @import 'setetres';
+@import 'stories';
 @import 'xxxxxxxooo';
 
 *,
@@ -78,6 +79,18 @@ html {
         @include media-breakpoint-up(lg) {
             font-size: calc(var(--font-size) / 2);
         }
+
+        &::before {
+            @extend %background-noise;
+
+            bottom: 0;
+            content: '';
+            left: 0;
+            opacity: .15;
+            position: fixed;
+            right: 0;
+            top: 0;
+        }
     }
 }
 
@@ -94,13 +107,14 @@ html {
     z-index: 2;
 }
 
-.small {
-    color: var(--color-secondary);
-    font-size: 12px;
-    letter-spacing: .1vw;
-    line-height: 1;
-    margin-bottom: calc(var(--gutter) / 2);
-    text-transform: uppercase;
+ul {
+    margin-bottom: var(--gutter);
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: var(--gutter);
+    margin-top: 0;
 }
 
 hr {
@@ -109,6 +123,14 @@ hr {
     display: block;
     height: 1px;
     margin: var(--gutter) auto;
+}
+
+.small {
+    color: var(--color-secondary);
+    font-size: 12px;
+    letter-spacing: .1vw;
+    line-height: 1;
+    text-transform: uppercase;
 }
 
 .gutter {

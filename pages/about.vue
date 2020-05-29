@@ -43,7 +43,7 @@
                 document.querySelector('.logo').classList.remove('logo--about')
 
                 next()
-            }, 500)
+            }, 100)
         },
 
         head() {

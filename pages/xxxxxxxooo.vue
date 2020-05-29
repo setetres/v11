@@ -34,7 +34,7 @@
                 document.querySelector('.logo').classList.remove('logo--xxxxxxxooo')
 
                 next()
-            }, 500)
+            }, 100)
         },
 
         head() {

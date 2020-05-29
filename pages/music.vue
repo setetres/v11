@@ -113,7 +113,7 @@
                 document.querySelector('.logo').classList.add('logo--music')
 
                 next()
-            }, 500)
+            }, 100)
         },
 
         head() {

@@ -3,7 +3,8 @@ body.dark-mode {
     --color-background: #000000;
     --color-setetres: var(--color-background);
 
-    .pattern {
+    .pattern,
+    .story__loading {
         @extend %background-stripes-white;
     }
 }

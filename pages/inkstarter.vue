@@ -115,7 +115,7 @@
                 document.querySelector('.logo').classList.remove('logo--inkstarter')
 
                 next()
-            }, 500)
+            }, 100)
         },
 
         head() {

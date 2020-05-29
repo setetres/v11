@@ -54,7 +54,7 @@
                 document.querySelector('.logo').classList.remove('logo--archive')
 
                 next()
-            }, 500)
+            }, 100)
         },
 
         head() {

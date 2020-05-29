@@ -17,7 +17,7 @@
         beforeRouteLeave(to, from, next) {
             setTimeout(function() {
                 next()
-            }, 500)
+            }, 100)
         },
 
         head() {

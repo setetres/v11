@@ -43,7 +43,7 @@
                 document.querySelector('.logo').classList.add('logo--lifestream')
 
                 next()
-            }, 500)
+            }, 100)
         },
 
         head() {

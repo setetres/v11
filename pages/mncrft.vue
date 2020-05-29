@@ -128,7 +128,7 @@
                 document.querySelector('.logo').classList.remove('logo--mncrft')
 
                 next()
-            }, 500)
+            }, 100)
         },
 
         head() {
