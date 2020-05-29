@@ -1,7 +1,7 @@
 <template>
     <div class="application">
         <div class="gutter _pt-0">
-            <div class="ooo-container _p-0 _w-100">
+            <div class="ooo-container _p-0">
                 <div class="ooo-row">
                     <div class="ooo-col-sm-6 ooo-col-lg-3">
                         <hr>

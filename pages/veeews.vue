@@ -3,6 +3,11 @@
         <div class="gutter">
             <div class="ooo-container _p-0">
                 <div class="ooo-row">
+                    <div class="ooo-col-md-5">
+                        <stories :playlist="playlist" />
+                        <hr class="_mt-0">
+                        <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem justo, vehicula vitae turpis non, molestie congue ante. Nulla pretium metus sed lacus accumsan, vitae sagittis dolor efficitur. Fusce aliquam eu elit in suscipit. Cras rutrum, odio vitae sodales mattis, tortor erat interdum augue, sed malesuada ex ante non augue. Nulla sollicitudin risus et sodales malesuada. Phasellus pellentesque suscipit volutpat. Vivamus vitae molestie justo, nec finibus urna. Donec facilisis interdum feugiat. Phasellus iaculis diam at vehicula maximus.</p>
+                    </div>
                     <div class="ooo-col-md-7">
                         <div class="ooo-row">
                             <div class="ooo-col-12">
@@ -66,9 +71,6 @@
                                 <p><a href="https://instagram.com/ar/250083476205178/" class="link" target="_blank" rel="noopener">TRVP</a></p>
                             </div>
                         </div>
-                    </div>
-                    <div class="ooo-col-md-5">
-                        <stories :playlist="playlist" />
                     </div>
                 </div>
             </div>

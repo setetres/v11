@@ -31,7 +31,7 @@
         color: var(--color-background);
         flex: 1;
         font-style: italic;
-        letter-spacing: -.05vw;
+        letter-spacing: calc(var(--letter-spacing) * -1);
         line-height: 1.5;
         padding: var(--gutter-half) var(--gutter);
         position: relative;
@@ -60,7 +60,7 @@
     color: var(--color-background);
     cursor: pointer;
     font-style: italic;
-    letter-spacing: -.05vw;
+    letter-spacing: calc(var(--letter-spacing) * -1);
     line-height: 1.5;
     padding: var(--gutter-half) var(--gutter);
     position: relative;

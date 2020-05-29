@@ -9,7 +9,7 @@
     &__title {
         font-size: calc(var(--font-size) * 2);
         letter-spacing: calc(var(--letter-spacing) * -1);
-        line-height: 1;
+        line-height: 1.2;
 
         @include media-breakpoint-up(lg) {
             font-size: var(--font-size);
@@ -20,7 +20,7 @@
         @extend %signature;
 
         font-size: calc(var(--font-size) / 2);
-        line-height: 1;
+        line-height: 1.2;
         margin-top: var(--gutter);
         text-transform: lowercase;
 

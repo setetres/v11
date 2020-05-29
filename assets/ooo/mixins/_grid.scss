@@ -93,7 +93,7 @@ $container-max-widths: (
     margin-right: auto;
     padding-left: $gutter / 2;
     padding-right: $gutter / 2;
-    // width: 100%;
+    width: 100%;
 }
 
 @mixin make-container-max-widths($max-widths: $container-max-widths, $breakpoints: $grid-breakpoints) {
@@ -115,7 +115,7 @@ $container-max-widths: (
     padding-left: $gutter / 2;
     padding-right: $gutter / 2;
     position: relative;
-    // width: 100%;
+    width: 100%;
 }
 
 @mixin make-col($size, $columns: $grid-columns) {

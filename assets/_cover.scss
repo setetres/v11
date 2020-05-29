@@ -44,8 +44,8 @@
 
         color: var(--color-primary);
         font-size: 18vw;
-        letter-spacing: -.15vw;
-        line-height: 1;
+        letter-spacing: calc(var(--letter-spacing) * -1);
+        line-height: 1.2;
         position: absolute;
         transform: translateY(calc(var(--font-size) / 1.5));
         z-index: 2;

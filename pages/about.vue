@@ -1,7 +1,7 @@
 <template>
     <section class="section section--about">
         <div class="gutter">
-            <div class="ooo-container _p-0 _w-100">
+            <div class="ooo-container _p-0">
                 <div class="ooo-row">
                     <div class="ooo-col-12">
                         <p class="section__title">

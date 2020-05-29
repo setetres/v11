@@ -73,6 +73,7 @@ html {
         font-size: var(--font-size);
         font-style: normal;
         font-weight: 400;
+        letter-spacing: calc(var(--letter-spacing) * -1);
         line-height: 1.2;
         transition: background-color var(--transition-timing) var(--transition-easing);
 
@@ -128,8 +129,8 @@ hr {
 .small {
     color: var(--color-secondary);
     font-size: 12px;
-    letter-spacing: .1vw;
-    line-height: 1;
+    letter-spacing: var(--letter-spacing);
+    line-height: 1.5;
     text-transform: uppercase;
 }
 

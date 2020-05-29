@@ -1,8 +1,8 @@
 <template>
     <section class="section section--home">
         <div class="gutter">
-            <div class="ooo-container _p-0 _w-100">
-                <img src="/images/home.jpg" height="auto" class="_d-block _w-100">
+            <div class="ooo-container _p-0">
+                <img src="/images/home.jpg" class="_d-block _w-100" width="3024" height="auto">
             </div>
         </div>
     </section>
