@@ -11,7 +11,7 @@
                     <div class="ooo-col-md-7">
                         <div class="ooo-row">
                             <div class="ooo-col-12">
-                                <p class="small _mb-0">1.</p>
+                                <p class="small _m-0">1.</p>
                             </div>
                             <div class="ooo-col-12">
                                 <p class="_m-0"><a href="https://instagram.com/ar/836850480132886/" class="link" target="_blank" rel="noopener">XXXXXXXOOO-001</a></p>
@@ -20,7 +20,7 @@
                         <hr>
                         <div class="ooo-row">
                             <div class="ooo-col-12">
-                                <p class="small _mb-0">2.</p>
+                                <p class="small _m-0">2.</p>
                             </div>
                             <div class="ooo-col-12">
                                 <p class="_m-0"><a href="https://instagram.com/ar/223386212415107/" class="link" target="_blank" rel="noopener">XXXXXXXOOO-002</a></p>
@@ -29,7 +29,7 @@
                         <hr>
                         <div class="ooo-row">
                             <div class="ooo-col-12">
-                                <p class="small _mb-0">3.</p>
+                                <p class="small _m-0">3.</p>
                             </div>
                             <div class="ooo-col-12">
                                 <p class="_m-0"><a href="https://instagram.com/ar/2618475055057992/" class="link" target="_blank" rel="noopener">XXXXXXXOOO-003</a></p>
@@ -38,7 +38,7 @@
                         <hr>
                         <div class="ooo-row">
                             <div class="ooo-col-12">
-                                <p class="small _mb-0">4.</p>
+                                <p class="small _m-0">4.</p>
                             </div>
                             <div class="ooo-col-12">
                                 <p class="_m-0"><a href="https://instagram.com/ar/594384131433890/" class="link" target="_blank" rel="noopener">XXXXXXXOOO-004</a></p>
@@ -47,7 +47,7 @@
                         <hr>
                         <div class="ooo-row">
                             <div class="ooo-col-12">
-                                <p class="small _mb-0">5.</p>
+                                <p class="small _m-0">5.</p>
                             </div>
                             <div class="ooo-col-12">
                                 <p class="_m-0"><a href="https://instagram.com/ar/686469515472803/" class="link" target="_blank" rel="noopener">XXXXXXXOOO-005</a></p>
@@ -56,7 +56,7 @@
                         <hr>
                         <div class="ooo-row">
                             <div class="ooo-col-12">
-                                <p class="small _mb-0">6.</p>
+                                <p class="small _m-0">6.</p>
                             </div>
                             <div class="ooo-col-12">
                                 <p class="_m-0"><a href="https://instagram.com/ar/929622894133566/" class="link" target="_blank" rel="noopener">FEIN</a></p>
@@ -65,7 +65,7 @@
                         <hr>
                         <div class="ooo-row">
                             <div class="ooo-col-12">
-                                <p class="small _mb-0">7.</p>
+                                <p class="small _m-0">7.</p>
                             </div>
                             <div class="ooo-col-12">
                                 <p><a href="https://instagram.com/ar/250083476205178/" class="link" target="_blank" rel="noopener">TRVP</a></p>

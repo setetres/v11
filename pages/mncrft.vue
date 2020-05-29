@@ -43,7 +43,7 @@
                         <img src="/images/mncrft-05.jpg" width="2560" height="1440">
                     </div>
                     <div class="ooo-col-12">
-                        <img src="/images/mncrft-06.jpg" width="2560" height="1440" class="_mb-0">
+                        <img src="/images/mncrft-06.jpg" width="2560" height="1440" class="_m-0">
                     </div>
                 </div>
             </div>

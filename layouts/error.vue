@@ -4,8 +4,8 @@
             <div class="gutter">
                 <div class="ooo-row">
                     <div class="ooo-col-xl-6">
-                        <p v-if="error.statusCode === 404" class="section__title _mb-0">Page not found</p>
-                        <p v-else class="section__title _mb-0">An error occurred</p>
+                        <p v-if="error.statusCode === 404" class="section__title _m-0">Page not found</p>
+                        <p v-else class="section__title _m-0">An error occurred</p>
                     </div>
                 </div>
             </div>

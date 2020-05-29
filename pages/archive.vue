@@ -34,7 +34,7 @@
                         <a href="https://v9.setetres.st" class="link link--external _w-100" target="_blank" rel="noopener"><img src="/images/archive-v9.jpg" alt="Sete Três — v9" class="_w-100"></a>
                     </div>
                     <div class="ooo-col-xl-12">
-                        <a href="https://v10.setetres.st" class="link link--external _w-100" target="_blank" rel="noopener"><img src="/images/archive-v10.jpg" alt="Sete Três — v10" class="_w-100 _mb-0"></a>
+                        <a href="https://v10.setetres.st" class="link link--external _w-100" target="_blank" rel="noopener"><img src="/images/archive-v10.jpg" alt="Sete Três — v10" class="_w-100 _m-0"></a>
                     </div>
                 </div>
             </div>
