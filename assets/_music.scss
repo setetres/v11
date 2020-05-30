@@ -1,0 +1,36 @@
+.music {
+    display: grid;
+    gap: 0% var(--gutter);
+    grid-template-areas: '. .' '. .';
+    grid-template-columns: 30% 1fr;
+    grid-template-rows: 1fr auto;
+    margin-bottom: var(--gutter);
+
+    img {
+        margin-bottom: var(--spacer-3);
+        width: 100%;
+    }
+
+    &__info {
+        margin-bottom: var(--gutter);
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+
+    &__track {
+        > div {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+
+        > div > p {
+            margin-bottom: 0;
+        }
+    }
+}

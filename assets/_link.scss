@@ -13,22 +13,20 @@
         display: flex;
         filter: grayscale(1);
         flex-shrink: 0;
-        height: var(--font-size);
-        image-rendering: pixelated;
+        height: var(--spacer-5);
         margin-right: var(--spacer-3);
-        width: var(--font-size);
-
-        @include media-breakpoint-up(lg) {
-            height: calc(var(--font-size) / 2);
-            width: calc(var(--font-size) / 2);
-        }
+        width: var(--spacer-5);
     }
 
     &--button {
         background-color: var(--color-primary);
         color: var(--color-white);
-        padding: var(--gutter-half) var(--gutter);
+        font-size: var(--spacer-3);
+        letter-spacing: var(--letter-spacing);
+        line-height: 1.5;
+        padding: var(--spacer-3) var(--spacer-4);
         text-decoration: none;
+        text-transform: uppercase;
 
         &:hover {
             background-color: var(--color-foreground);

@@ -28,8 +28,7 @@ export default {
         ],
         link: [
             { rel: 'canonical', href: 'https://setetres.st' },
-            { rel: 'icon', href: '/favicon.svg' },
-            { rel: 'stylesheet', href: 'https://use.typekit.net/kqq2kdy.css' }
+            { rel: 'icon', href: '/favicon.svg' }
         ]
     },
     css: [

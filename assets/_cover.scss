@@ -1,53 +1,19 @@
 .cover {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    min-height: 50vh;
+    display: block;
+    margin-bottom: var(--gutter);
     overflow: hidden;
+    padding-top: 56.25%;
     position: relative;
 
-    @include media-breakpoint-up(lg) {
-        min-height: 100vh;
-    }
-
-    .gutter {
-        display: flex;
-        flex: 1;
-    }
-
-    hr {
-        background-color: var(--color-background);
-    }
-
     &__content {
-        background-color: var(--color-foregorund);
-        display: flex;
+        display: block;
+        height: 100%;
         justify-content: center;
+        left: 0;
         overflow: hidden;
-        position: relative;
+        position: absolute;
+        top: 0;
         transition: background-color var(--transition-timing) var(--transition-easing);
         width: 100%;
-
-        video {
-            height: 100%;
-            left: 0;
-            object-fit: cover;
-            position: absolute;
-            top: 0;
-            width: 100%;
-            z-index: 1;
-        }
-    }
-
-    &__signature {
-        @extend %signature;
-
-        color: var(--color-primary);
-        font-size: 18vw;
-        letter-spacing: calc(var(--letter-spacing) * -1);
-        line-height: 1.2;
-        position: absolute;
-        transform: translateY(calc(var(--font-size) / 1.5));
-        z-index: 2;
     }
 }

@@ -12,17 +12,15 @@ body.dark-mode {
 .dark-mode-checkbox {
     appearance: none;
     border: 0;
-    height: var(--font-size);
+    bottom: var(--spacer-4);
+    height: var(--spacer-5);
     opacity: 1;
     outline: none;
     pointer-events: none;
-    width: var(--font-size);
+    position: fixed;
+    right: var(--spacer-5);
+    width: var(--spacer-5);
     z-index: 73;
-
-    @include media-breakpoint-up(lg) {
-        height: calc(var(--font-size) / 2);
-        width: calc(var(--font-size) / 2);
-    }
 
     &::after {
         align-items: center;
@@ -34,17 +32,11 @@ body.dark-mode {
         cursor: pointer;
         display: flex;
         flex-shrink: 0;
-        height: var(--font-size);
-        image-rendering: pixelated;
+        height: var(--spacer-5);
         line-height: var(--spacer-5);
         pointer-events: all;
         position: absolute;
-        width: var(--font-size);
-
-        @include media-breakpoint-up(lg) {
-            height: calc(var(--font-size) / 2);
-            width: calc(var(--font-size) / 2);
-        }
+        width: var(--spacer-5);
     }
 
     &:checked {

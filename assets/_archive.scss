@@ -1,18 +1,17 @@
 .section--archive {
+    a {
+        display: block;
+    }
+
     img {
         display: block;
         filter: grayscale(1);
         height: auto;
-        margin-bottom: var(--gutter);
         transition: filter var(--transition-timing) var(--transition-easing);
         width: 100%;
 
         &:hover {
             filter: grayscale(0);
         }
-    }
-
-    .ooo-container-fluid {
-        width: 100%;
     }
 }

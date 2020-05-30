@@ -1,79 +1,45 @@
 <template>
     <section class="section section--veeews">
-        <div class="gutter">
-            <div class="ooo-container _p-0">
-                <div class="ooo-row">
-                    <div class="ooo-col-md-5">
-                        <stories :playlist="playlist" />
-                        <hr class="_mt-0">
-                        <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem justo, vehicula vitae turpis non, molestie congue ante. Nulla pretium metus sed lacus accumsan, vitae sagittis dolor efficitur. Fusce aliquam eu elit in suscipit. Cras rutrum, odio vitae sodales mattis, tortor erat interdum augue, sed malesuada ex ante non augue. Nulla sollicitudin risus et sodales malesuada. Phasellus pellentesque suscipit volutpat. Vivamus vitae molestie justo, nec finibus urna. Donec facilisis interdum feugiat. Phasellus iaculis diam at vehicula maximus.</p>
-                    </div>
-                    <div class="ooo-col-md-7">
-                        <div class="ooo-row">
-                            <div class="ooo-col-12">
-                                <p class="small _m-0">1.</p>
-                            </div>
-                            <div class="ooo-col-12">
-                                <p class="_m-0"><a href="https://instagram.com/ar/836850480132886/" class="link" target="_blank" rel="noopener">XXXXXXXOOO-001</a></p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="ooo-row">
-                            <div class="ooo-col-12">
-                                <p class="small _m-0">2.</p>
-                            </div>
-                            <div class="ooo-col-12">
-                                <p class="_m-0"><a href="https://instagram.com/ar/223386212415107/" class="link" target="_blank" rel="noopener">XXXXXXXOOO-002</a></p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="ooo-row">
-                            <div class="ooo-col-12">
-                                <p class="small _m-0">3.</p>
-                            </div>
-                            <div class="ooo-col-12">
-                                <p class="_m-0"><a href="https://instagram.com/ar/2618475055057992/" class="link" target="_blank" rel="noopener">XXXXXXXOOO-003</a></p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="ooo-row">
-                            <div class="ooo-col-12">
-                                <p class="small _m-0">4.</p>
-                            </div>
-                            <div class="ooo-col-12">
-                                <p class="_m-0"><a href="https://instagram.com/ar/594384131433890/" class="link" target="_blank" rel="noopener">XXXXXXXOOO-004</a></p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="ooo-row">
-                            <div class="ooo-col-12">
-                                <p class="small _m-0">5.</p>
-                            </div>
-                            <div class="ooo-col-12">
-                                <p class="_m-0"><a href="https://instagram.com/ar/686469515472803/" class="link" target="_blank" rel="noopener">XXXXXXXOOO-005</a></p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="ooo-row">
-                            <div class="ooo-col-12">
-                                <p class="small _m-0">6.</p>
-                            </div>
-                            <div class="ooo-col-12">
-                                <p class="_m-0"><a href="https://instagram.com/ar/929622894133566/" class="link" target="_blank" rel="noopener">FEIN</a></p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="ooo-row">
-                            <div class="ooo-col-12">
-                                <p class="small _m-0">7.</p>
-                            </div>
-                            <div class="ooo-col-12">
-                                <p><a href="https://instagram.com/ar/250083476205178/" class="link" target="_blank" rel="noopener">TRVP</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div>
+            <div class="veeews">
+                <p><a href="https://instagram.com/ar/836850480132886/" class="link" target="_blank" rel="noopener">XXXXXXXOOO-001</a></p>
+                <small>1.</small>
             </div>
+            <hr>
+            <div class="veeews">
+                <p><a href="https://instagram.com/ar/223386212415107/" class="link" target="_blank" rel="noopener">XXXXXXXOOO-002</a></p>
+                <small>2.</small>
+            </div>
+            <hr>
+            <div class="veeews">
+                <p><a href="https://instagram.com/ar/2618475055057992/" class="link" target="_blank" rel="noopener">XXXXXXXOOO-003</a></p>
+                <small>3.</small>
+            </div>
+            <hr>
+            <div class="veeews">
+                <p><a href="https://instagram.com/ar/594384131433890/" class="link" target="_blank" rel="noopener">XXXXXXXOOO-004</a></p>
+                <small>4.</small>
+            </div>
+            <hr>
+            <div class="veeews">
+                <p><a href="https://instagram.com/ar/686469515472803/" class="link" target="_blank" rel="noopener">XXXXXXXOOO-005</a></p>
+                <small>5.</small>
+            </div>
+            <hr>
+            <div class="veeews">
+                <p><a href="https://instagram.com/ar/929622894133566/" class="link" target="_blank" rel="noopener">FEIN</a></p>
+                <small>6.</small>
+            </div>
+            <hr>
+            <div class="veeews">
+                <p><a href="https://instagram.com/ar/250083476205178/" class="link" target="_blank" rel="noopener">TRVP</a></p>
+                <small>7.</small>
+            </div>
+        </div>
+        <div>
+            <stories :playlist="playlist" />
+            <hr>
+            <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem justo, vehicula vitae turpis non, molestie congue ante. Nulla pretium metus sed lacus accumsan, vitae sagittis dolor efficitur. Fusce aliquam eu elit in suscipit.</small>
         </div>
     </section>
 </template>

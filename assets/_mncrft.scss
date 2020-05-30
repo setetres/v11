@@ -1,18 +1,11 @@
 .section--mncrft {
     .cover {
-        align-items: stretch;
-
-        &__content {
-            @extend %background-mncrft;
-
-            align-items: center;
-        }
+        @extend %background-mncrft;
     }
 
     img {
         display: block;
         height: auto;
-        margin-bottom: var(--gutter);
         width: 100%;
     }
 }
@@ -32,7 +25,5 @@
 
     canvas {
         flex-shrink: 0;
-        height: 27vw !important;
-        width: 27vw !important;
     }
 }

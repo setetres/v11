@@ -7,9 +7,9 @@
         display: block;
         padding-top: calc(177.777777778% + var(--font-size) + var(--spacer-4) + 2px);
 
-        @include media-breakpoint-up(lg) {
-            padding-top: calc(177.777777778% + calc(var(--font-size) / 2) + var(--spacer-4) + 2px);
-        }
+        // @include media-breakpoint-up(lg) {
+        //     padding-top: calc(177.777777778% + calc(var(--font-size) / 2) + var(--spacer-4) + 2px);
+        // }
     }
 
     &__toggle {
@@ -29,10 +29,10 @@
         width: var(--font-size);
         z-index: 3;
 
-        @include media-breakpoint-up(lg) {
-            height: calc(var(--font-size) / 2);
-            width: calc(var(--font-size) / 2);
-        }
+        // @include media-breakpoint-up(lg) {
+        //     height: calc(var(--font-size) / 2);
+        //     width: calc(var(--font-size) / 2);
+        // }
     }
 
     &__playlist {
@@ -67,10 +67,10 @@
         overflow: hidden;
         width: var(--font-size);
 
-        @include media-breakpoint-up(lg) {
-            height: calc(var(--font-size) / 2);
-            width: calc(var(--font-size) / 2);
-        }
+        // @include media-breakpoint-up(lg) {
+        //     height: calc(var(--font-size) / 2);
+        //     width: calc(var(--font-size) / 2);
+        // }
     }
 
     &__title {

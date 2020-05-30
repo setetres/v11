@@ -1,21 +1,32 @@
 .menu {
-    font-size: var(--font-size);
+    font-size: var(--spacer-5);
     font-style: italic;
-    line-height: 1.15;
-
-    @include media-breakpoint-up(lg) {
-        font-size: calc(var(--font-size) / 2);
-    }
+    line-height: 1;
 
     ul {
         list-style-type: none;
-        margin: 0;
+        margin: 0 0 0 calc(var(--spacer-3) * -1);
         padding: 0;
+
+        li {
+            margin-bottom: var(--spacer-3);
+        }
     }
 
-    a {
+    .link {
         align-items: center;
         display: flex;
         text-decoration: none;
+
+        &:focus {
+            &::before {
+                background-color: black;
+                content: '';
+                height: 1px;
+                left: 0;
+                position: fixed;
+                right: 0;
+            }
+        }
     }
 }

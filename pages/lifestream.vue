@@ -1,30 +1,26 @@
 <template>
     <section class="section section--lifestream">
+        <p class="section__title">We will all join the lifestream... you are no exception.</p>
+        <p>
+            Look always to the eternal flow of time which is far greater than the span of human life. It will teach you more, than staying here in the valley... What you will see will eventually become part of the life's dream.
+        </p>
+        <p class="section__title">
+            Under construction
+        </p>
+        <p>
+            More coming soon.
+        </p>
+
         <div class="gutter">
             <div class="ooo-container _p-0">
                 <div class="ooo-row">
-                    <div class="ooo-col-12">
-                        <p class="section__title">
-                            We will all join the lifestream... you are no exception.
-                        </p>
-                    </div>
-                    <div class="ooo-col-12">
-                        <p>
-                            Look always to the eternal flow of time which is far greater than the span of human life. It will teach you more, than staying here in the valley... What you will see will eventually become part of the life's dream.
-                        </p>
-                    </div>
+                    <div class="ooo-col-12" />
+                    <div class="ooo-col-12" />
                 </div>
             </div>
             <div class="ooo-container _p-0">
                 <div class="ooo-row">
-                    <div class="ooo-col-12">
-                        <p class="section__title">
-                            Under construction
-                        </p>
-                        <p>
-                            More coming soon.
-                        </p>
-                    </div>
+                    <div class="ooo-col-12" />
                 </div>
             </div>
         </div>

@@ -1,17 +1,11 @@
 .section--xxxxxxxooo {
     .cover {
-        align-items: stretch;
-
-        &__content {
-            @extend %background-xxxxxxxooo;
-
-            align-items: center;
-        }
+        @extend %background-xxxxxxxooo;
     }
 }
 
 .revue-form-group {
-    flex: 1;
+    // flex: 1;
 
     label {
         height: 100%;
