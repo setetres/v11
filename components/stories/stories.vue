@@ -1,6 +1,8 @@
 <template>
     <div class="stories">
-        <a href="#" class="stories__toggle small" @click.prevent="toggle">{{ toggleLabel }}</a>
+        <a href="#" class="stories__toggle" @click.prevent="toggle">
+            <span>{{ toggleLabel }}</span>
+        </a>
         <div v-show="isStoriesOpen" class="stories__playlist">
             <div class="stories__meta">
                 <div class="stories__avatar" />

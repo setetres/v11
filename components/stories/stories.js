@@ -26,7 +26,7 @@ export default {
         },
 
         toggleLabel() {
-            return this.storiesOpen ? 'X' : '(7)'
+            return this.storiesOpen ? '᳁' : '᳃'
         }
     },
 
