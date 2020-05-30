@@ -16,3 +16,15 @@
         }
     }
 }
+
+.image-hover {
+    display: block;
+    filter: grayscale(1);
+    height: auto;
+    transition: filter var(--transition-timing) var(--transition-easing);
+    width: 100%;
+
+    &:hover {
+        filter: grayscale(0);
+    }
+}

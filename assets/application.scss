@@ -35,13 +35,13 @@
 @import 'embed';
 @import 'home';
 @import 'inkstarter';
+@import 'lifestream';
 @import 'link';
 @import 'logo';
 @import 'menu';
 @import 'mncrft';
 @import 'music';
 @import 'placeholder';
-@import 'reveal';
 @import 'section';
 @import 'setetres';
 @import 'stories';
@@ -97,24 +97,6 @@ html {
     z-index: 1;
 }
 
-.application {
-    display: flex;
-    justify-content: center;
-    min-height: 100vh;
-    position: relative;
-    transition: background-color var(--transition-timing) var(--transition-easing);
-    z-index: 2;
-
-    &__container {
-        display: grid;
-        gap: 0 var(--gutter);
-        grid-template-areas: '. .';
-        grid-template-columns: 1fr auto;
-        grid-template-rows: 1fr;
-        max-width: 1400px;
-    }
-}
-
 ul {
     margin-bottom: var(--gutter);
     margin-top: 0;
@@ -139,6 +121,33 @@ small {
     letter-spacing: var(--letter-spacing);
     line-height: 1.5;
     text-transform: uppercase;
+}
+
+.application {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+    transition: background-color var(--transition-timing) var(--transition-easing);
+    z-index: 2;
+
+    &__container {
+        display: grid;
+        gap: 0 var(--gutter);
+        grid-template-areas: '. .';
+        grid-template-columns: 1fr auto;
+        grid-template-rows: 1fr;
+        max-width: 1400px;
+        min-width: 1400px;
+    }
+
+    &__content,
+    &__sidebar {
+        > small {
+            display: block;
+            margin-bottom: var(--spacer-3);
+        }
+    }
 }
 
 .gutter {

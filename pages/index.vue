@@ -1,6 +1,6 @@
 <template>
     <section class="section section--home">
-        <img src="/images/home.jpg" class="_d-block _w-100" width="3024" height="auto">
+        <img src="/images/home.jpg" width="3024" height="auto">
     </section>
 </template>
 <script>

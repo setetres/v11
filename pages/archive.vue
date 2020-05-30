@@ -1,16 +1,38 @@
 <template>
     <section class="section section--archive">
-        <a href="https://v1.setetres.st" class="link link--external _w-100" target="_blank" rel="noopener"><img src="/images/archive-v1.jpg" alt="Sete Três — v1" class="_w-100"></a>
-        <a href="https://1997.setetres.st" class="link link--external _w-100" target="_blank" rel="noopener"><img src="/images/archive-v1997.jpg" alt="Sete Três — 1997" class="_w-100"></a>
-        <a href="https://v2.setetres.st" class="link link--external _w-100" target="_blank" rel="noopener"><img src="/images/archive-v2.jpg" alt="Sete Três — v2" class="_w-100"></a>
-        <a href="https://v3.setetres.st" class="link link--external _w-100" target="_blank" rel="noopener"><img src="/images/archive-v3.jpg" alt="Sete Três — v3" class="_w-100"></a>
-        <a href="https://v4.setetres.st" class="link link--external _w-100" target="_blank" rel="noopener"><img src="/images/archive-v4.jpg" alt="Sete Três — v4" class="_w-100"></a>
-        <a href="https://v5.setetres.st" class="link link--external _w-100" target="_blank" rel="noopener"><img src="/images/archive-v5.jpg" alt="Sete Três — v5" class="_w-100"></a>
-        <a href="https://v6.setetres.st" class="link link--external _w-100" target="_blank" rel="noopener"><img src="/images/archive-v6.jpg" alt="Sete Três — v6" class="_w-100"></a>
-        <a href="https://v7.setetres.st" class="link link--external _w-100" target="_blank" rel="noopener"><img src="/images/archive-v7.jpg" alt="Sete Três — v7" class="_w-100"></a>
-        <a href="https://v8.setetres.st" class="link link--external _w-100" target="_blank" rel="noopener"><img src="/images/archive-v8.jpg" alt="Sete Três — v8" class="_w-100"></a>
-        <a href="https://v9.setetres.st" class="link link--external _w-100" target="_blank" rel="noopener"><img src="/images/archive-v9.jpg" alt="Sete Três — v9" class="_w-100"></a>
-        <a href="https://v10.setetres.st" class="link link--external _w-100" target="_blank" rel="noopener"><img src="/images/archive-v10.jpg" alt="Sete Três — v10" class="_w-100 _m-0"></a>
+        <a href="https://v1.setetres.st" class="link link--external" target="_blank" rel="noopener">
+            <img src="/images/archive-v1.jpg" class="image-hover" alt="Sete Três — v1">
+        </a>
+        <a href="https://1997.setetres.st" class="link link--external" target="_blank" rel="noopener">
+            <img src="/images/archive-v1997.jpg" class="image-hover" alt="Sete Três — 1997">
+        </a>
+        <a href="https://v2.setetres.st" class="link link--external" target="_blank" rel="noopener">
+            <img src="/images/archive-v2.jpg" class="image-hover" alt="Sete Três — v2">
+        </a>
+        <a href="https://v3.setetres.st" class="link link--external" target="_blank" rel="noopener">
+            <img src="/images/archive-v3.jpg" class="image-hover" alt="Sete Três — v3">
+        </a>
+        <a href="https://v4.setetres.st" class="link link--external" target="_blank" rel="noopener">
+            <img src="/images/archive-v4.jpg" class="image-hover" alt="Sete Três — v4">
+        </a>
+        <a href="https://v5.setetres.st" class="link link--external" target="_blank" rel="noopener">
+            <img src="/images/archive-v5.jpg" class="image-hover" alt="Sete Três — v5">
+        </a>
+        <a href="https://v6.setetres.st" class="link link--external" target="_blank" rel="noopener">
+            <img src="/images/archive-v6.jpg" class="image-hover" alt="Sete Três — v6">
+        </a>
+        <a href="https://v7.setetres.st" class="link link--external" target="_blank" rel="noopener">
+            <img src="/images/archive-v7.jpg" class="image-hover" alt="Sete Três — v7">
+        </a>
+        <a href="https://v8.setetres.st" class="link link--external" target="_blank" rel="noopener">
+            <img src="/images/archive-v8.jpg" class="image-hover" alt="Sete Três — v8">
+        </a>
+        <a href="https://v9.setetres.st" class="link link--external" target="_blank" rel="noopener">
+            <img src="/images/archive-v9.jpg" class="image-hover" alt="Sete Três — v9">
+        </a>
+        <a href="https://v10.setetres.st" class="link link--external" target="_blank" rel="noopener">
+            <img src="/images/archive-v10.jpg" class="image-hover" alt="Sete Três — v10">
+        </a>
     </section>
 </template>
 <script>

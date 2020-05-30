@@ -3,21 +3,16 @@
         <div class="cover">
             <div class="cover__content">
                 <div id="skin" />
-                <!-- <span class="cover__signature">refresh gang</span> -->
             </div>
         </div>
-        <p class="section__title">
-            Got stung by the Minecraft fever.
-        </p>
-        <p>
-            I'm not trying to be a <em>Redstone Mad Scientist</em> or a <em>1:1 Scale 3D Pixel Art Freaking Builder</em>. This is not an attempt to become a Minecraft professional. I'm just trying to have fun. Everything here is a work in progress and nothing will ever be finished. Might add other screenshots and/or projects, who knows...
-        </p>
-        <img src="/images/mncrft-01.jpg" width="2560" height="1440">
-        <img src="/images/mncrft-02.jpg" width="2560" height="1440">
-        <img src="/images/mncrft-03.jpg" width="2560" height="1440">
-        <img src="/images/mncrft-04.jpg" width="2560" height="1440">
-        <img src="/images/mncrft-05.jpg" width="2560" height="1440">
-        <img src="/images/mncrft-06.jpg" width="2560" height="1440" class="_m-0">
+        <p class="section__title">Got stung by the Minecraft fever.</p>
+        <p>I'm not trying to be a <em>Redstone Mad Scientist</em> or a <em>1:1 Scale 3D Pixel Art Freaking Builder</em>. This is not an attempt to become a Minecraft professional. I'm just trying to have fun. Everything here is a work in progress and nothing will ever be finished. Might add other screenshots and/or projects, who knows...</p>
+        <img src="/images/mncrft-01.jpg" class="image-hover">
+        <img src="/images/mncrft-02.jpg" class="image-hover">
+        <img src="/images/mncrft-03.jpg" class="image-hover">
+        <img src="/images/mncrft-04.jpg" class="image-hover">
+        <img src="/images/mncrft-05.jpg" class="image-hover">
+        <img src="/images/mncrft-06.jpg" class="image-hover">
     </section>
 </template>
 <script>

@@ -2,8 +2,16 @@
     <section class="section section--music">
         <div class="music">
             <div>
-                <img src="/images/triceracough.png" width="auto" height="auto">
+                <a href="https://xxxxxxx.ooo" target="_blank" rel="noopener"><img src="/images/triceracough.png" width="auto" height="auto"></a>
                 <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem justo, vehicula vitae turpis non, molestie congue ante. Nulla pretium metus sed lacus accumsan, vitae sagittis dolor efficitur. Fusce aliquam eu elit in suscipit.</small>
+                <div class="music__links">
+                    <small>
+                        <a href="https://bit.ly/TRICERACOUGHAPPLEMUSIC" class="link">Listen on  Music</a><br>
+                        <a href="https://bit.ly/TRICERACOUGHDEEZER" class="link">Listen on Deezer</a><br>
+                        <a href="https://bit.ly/TRICERACOUGHOUTNOW" class="link">Listen on Spotify</a><br>
+                        <a href="https://bit.ly/TRICERACOUGHTIDAL" class="link">Listen on Tidal</a>
+                    </small>
+                </div>
             </div>
             <div>
                 <div class="music__info">
@@ -24,8 +32,17 @@
         <hr>
         <div class="music">
             <div>
-                <img src="/images/fein.png" width="auto" height="auto">
+                <a href="https://xxxxxxx.ooo" target="_blank" rel="noopener"><img src="/images/fein.png" width="auto" height="auto"></a>
                 <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem justo, vehicula vitae turpis non, molestie congue ante. Nulla pretium metus sed lacus accumsan, vitae sagittis dolor efficitur. Fusce aliquam eu elit in suscipit.</small>
+                <div class="music__links">
+                    <small>
+                        <a href="https://bit.ly/FEINAPPLEMUSIC" class="link">Listen on  Music</a><br>
+                        <a href="https://bit.ly/FEINDEEZER" class="link">Listen on Deezer</a><br>
+                        <a href="https://bit.ly/FEINOUTNOW" class="link">Listen on Spotify</a><br>
+                        <a href="https://bit.ly/FEINTIDAL" class="link">Listen on Tidal</a><br>
+                        <a href="https://bit.ly/FEINYOUTUBE" class="link">Listen on YouTube</a>
+                    </small>
+                </div>
             </div>
             <div>
                 <div class="music__info">

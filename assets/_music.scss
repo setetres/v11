@@ -11,18 +11,22 @@
         width: 100%;
     }
 
+    &__track {
+        > div {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    &__links {
+        margin-top: var(--gutter-half);
+    }
+
     &__info {
         margin-bottom: var(--gutter);
 
         p {
             margin-bottom: 0;
-        }
-    }
-
-    &__track {
-        > div {
-            display: flex;
-            justify-content: space-between;
         }
     }
 

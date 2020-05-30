@@ -38,7 +38,6 @@
         </div>
         <div>
             <stories :playlist="playlist" />
-            <hr>
             <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem justo, vehicula vitae turpis non, molestie congue ante. Nulla pretium metus sed lacus accumsan, vitae sagittis dolor efficitur. Fusce aliquam eu elit in suscipit.</small>
         </div>
     </section>

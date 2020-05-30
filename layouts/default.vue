@@ -4,9 +4,7 @@
             <div class="application__container">
                 <div class="application__content">
                     <hr>
-                    <div>
-                        <small>Content</small>
-                    </div>
+                    <small>Content</small>
                     <nuxt />
                 </div>
                 <div class="application__sidebar">

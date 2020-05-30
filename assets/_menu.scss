@@ -18,15 +18,15 @@
         display: flex;
         text-decoration: none;
 
-        &:focus {
-            &::before {
-                background-color: black;
-                content: '';
-                height: 1px;
-                left: 0;
-                position: fixed;
-                right: 0;
-            }
-        }
+        // &:focus {
+        //     &::before {
+        //         background-color: var(--color-primary);
+        //         content: '';
+        //         height: 1px;
+        //         left: 0;
+        //         position: fixed;
+        //         right: 0;
+        //     }
+        // }
     }
 }

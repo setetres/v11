@@ -4,64 +4,49 @@
     }
 }
 
-.revue-form-group {
-    // flex: 1;
-
-    label {
-        height: 100%;
-        left: 0;
-        position: absolute;
-        text-indent: -999999px;
-        top: 0;
+#revue-embed {
+    form {
+        display: flex;
         width: 100%;
-        z-index: 1;
-    }
 
-    input {
-        appearance: none;
-        background-color: var(--color-foreground);
-        border: 0;
-        border-radius: 0;
-        color: var(--color-background);
-        flex: 1;
-        font-style: italic;
-        letter-spacing: calc(var(--letter-spacing) * -1);
-        line-height: 1.5;
-        padding: var(--gutter-half) var(--gutter);
-        position: relative;
-        width: 100%;
-        z-index: 2;
-
-        &:focus {
-            outline: 2px solid var(--color-primary);
-            outline-offset: calc(calc(var(--gutter-half) / 2) * -1);
+        label {
+            height: 100%;
+            left: 0;
+            position: absolute;
+            text-indent: -999999px;
+            top: 0;
+            width: 100%;
+            z-index: 1;
         }
     }
 }
 
-#revue-embed {
-    > form {
-        display: flex;
-        width: 100%;
-    }
+#member_email {
+    width: 100%;
+    z-index: 2;
 }
 
+#member_submit {
+    cursor: pointer;
+    z-index: 3;
+}
+
+#member_email,
 #member_submit {
     appearance: none;
     background-color: var(--color-foreground);
     border: 0;
     border-radius: 0;
     color: var(--color-background);
-    cursor: pointer;
+    font-size: var(--spacer-5);
     font-style: italic;
     letter-spacing: calc(var(--letter-spacing) * -1);
     line-height: 1.5;
-    padding: var(--gutter-half) var(--gutter);
+    padding: var(--spacer-4) var(--spacer-5);
     position: relative;
-    z-index: 3;
 
     &:focus {
         outline: 2px solid var(--color-primary);
-        outline-offset: calc(calc(var(--gutter-half) / 2) * -1);
+        outline-offset: calc(calc(var(--spacer-4) / 2) * -1);
     }
 }
