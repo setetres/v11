@@ -11,3 +11,12 @@
         margin-right: 11%;
     }
 }
+
+.winners {
+    display: grid;
+    gap: var(--gutter) var(--gutter);
+    grid-template-areas: '. .' '. .' '. .' '. .';
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-bottom: var(--gutter);
+}

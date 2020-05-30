@@ -11,16 +11,18 @@
             <p>InkStarter was/is a project which I tattooed myself with random drawings chosen by random people. Without knowing anything about drawing and even less about tattooing or even held a machine.</p>
             <p>How far can a human being go with this kind of power on his hands? Pretty far.</p>
             <img src="/images/inkstarter-02.jpg" class="image-hover">
-            <div class="embed embed--ratio">
+            <div class="embed">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLWjcKkvgds-9ZzcLos7rRJTS_MmE7Rhtm" frameborder="0" allowfullscreen />
             </div>
-            <img src="/images/inkstarter-winner-01.png" class="image-hover" alt="">
-            <img src="/images/inkstarter-winner-02.png" class="image-hover" alt="">
-            <img src="/images/inkstarter-winner-03.png" class="image-hover" alt="">
-            <img src="/images/inkstarter-winner-04.png" class="image-hover" alt="">
-            <img src="/images/inkstarter-winner-05.png" class="image-hover" alt="">
-            <img src="/images/inkstarter-winner-06.png" class="image-hover" alt="">
-            <img src="/images/inkstarter-winner-07.png" class="image-hover" alt="">
+            <div class="winners">
+                <img src="/images/inkstarter-winner-01.png" class="image-hover" alt="">
+                <img src="/images/inkstarter-winner-02.png" class="image-hover" alt="">
+                <img src="/images/inkstarter-winner-03.png" class="image-hover" alt="">
+                <img src="/images/inkstarter-winner-04.png" class="image-hover" alt="">
+                <img src="/images/inkstarter-winner-05.png" class="image-hover" alt="">
+                <img src="/images/inkstarter-winner-06.png" class="image-hover" alt="">
+                <img src="/images/inkstarter-winner-07.png" class="image-hover" alt="">
+            </div>
             <img src="/images/inkstarter-03.jpg" class="image-hover" alt="">
             <p class="section__title">Stats</p>
             <p>Voting was open for 30 days:</p>
