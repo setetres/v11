@@ -1,7 +1,16 @@
 <template>
-    <section class="section section--error">
-        <p v-if="error.statusCode === 404" class="section__title _m-0">Page not found</p>
-        <p v-else class="section__title _m-0">An error occurred</p>
+    <section class="application__content application__content--error">
+        <p v-if="error.statusCode === 404">
+            Page not found
+        </p>
+        <p v-else>
+            An error occurred
+        </p>
+        <small>
+            <nuxt-link to="/" class="link">
+                Go back
+            </nuxt-link>
+        </small>
     </section>
 </template>
 <script>

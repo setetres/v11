@@ -38,6 +38,7 @@ export default {
         '@/assets/archive.scss',
         '@/assets/dark-mode.scss',
         '@/assets/embed.scss',
+        '@/assets/error.scss',
         '@/assets/home.scss',
         '@/assets/inkstarter.scss',
         '@/assets/lifestream.scss',
