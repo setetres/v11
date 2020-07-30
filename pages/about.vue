@@ -12,7 +12,7 @@
             I'm also changing profile pictures on <a href="https://facebook.com/setetres" class="link" target="_blank" rel="noopener">Facebook</a>,
             travelling and taking photos on <a href="https://instagram.com/setetres" class="link" target="_blank" rel="noopener">Instagram</a>,
             writing code on <a href="https://github.com/setetres" class="link" target="_blank" rel="noopener">GitHub</a>,
-            creating <nuxt-link to="/music" class="link">music</nuxt-link>,
+            making <nuxt-link to="/music" class="link">music</nuxt-link>,
             running a weekly <nuxt-link to="/xxxxxxxooo" class="link">newsletter</nuxt-link>,
             behaving professionally on <a href="https://linkedin.com/in/setetres" class="link" target="_blank" rel="noopener">LinkedIn</a>
             and doing nothing on <a href="https://twitter.com/setetres" class="link" target="_blank" rel="noopener">Twitter</a>.
