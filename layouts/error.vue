@@ -1,15 +1,7 @@
 <template>
     <section class="section section--error">
-        <div class="ooo-container-fluid _p-0">
-            <div class="gutter">
-                <div class="ooo-row">
-                    <div class="ooo-col-xl-6">
-                        <p v-if="error.statusCode === 404" class="section__title _m-0">Page not found</p>
-                        <p v-else class="section__title _m-0">An error occurred</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <p v-if="error.statusCode === 404" class="section__title _m-0">Page not found</p>
+        <p v-else class="section__title _m-0">An error occurred</p>
     </section>
 </template>
 <script>

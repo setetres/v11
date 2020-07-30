@@ -1,6 +1,8 @@
 <template>
-    <section class="section section--home">
-        <img src="/images/home.jpg" width="3024" height="auto">
+    <section class="application__content application__content--home">
+        <p>
+            <img src="/images/home.jpg" alt="Samambaia">
+        </p>
     </section>
 </template>
 <script>
@@ -11,9 +13,9 @@
         },
 
         beforeRouteLeave(to, from, next) {
-            setTimeout(function() {
+            this.$nextTick(() => {
                 next()
-            }, 100)
+            })
         },
 
         head() {

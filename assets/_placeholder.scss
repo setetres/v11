@@ -3,6 +3,32 @@
     --cursor-position-y: 3;
 }
 
+@keyframes sttrs-svg {
+    0%,
+    70% {
+        stroke-dashoffset: 6000;
+    }
+
+    70%,
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes xxxxxxxooo-svg {
+    0% {
+        stroke-dashoffset: 666;
+    }
+
+    50% {
+        stroke-dashoffset: 0;
+    }
+
+    75% {
+        stroke-dashoffset: 666;
+    }
+}
+
 @keyframes background-waves {
     0% {
         background-position: 0 0;
@@ -31,12 +57,6 @@
     100% {
         background-position: -320px 0;
     }
-}
-
-%signature {
-    font-family: var(--font-family-script);
-    font-style: italic;
-    font-weight: 400;
 }
 
 %background-noise {

@@ -1,0 +1,63 @@
+@import 'setetres/s';
+@import 'setetres/e';
+@import 'setetres/t';
+@import 'setetres/r';
+
+:root {
+    --color-setetres: var(--color-background);
+}
+
+.setetres {
+    bottom: var(--spacer-6);
+    display: flex;
+    left: var(--spacer-6);
+    margin: 0;
+    pointer-events: none;
+    position: absolute;
+    right: var(--spacer-6);
+    top: var(--spacer-6);
+    transition:
+        top var(--transition-timing) var(--transition-easing),
+        right var(--transition-timing) var(--transition-easing),
+        bottom var(--transition-timing) var(--transition-easing),
+        left var(--transition-timing) var(--transition-easing);
+
+    &__letter {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        margin: 0 calc(var(--setetres-font-weight) * 2);
+        overflow: hidden;
+        position: relative;
+        width: 12.5%;
+
+        div {
+            &::before,
+            &::after {
+                background-color: var(--color-setetres);
+                content: '';
+                display: block;
+                position: absolute;
+                transition: background-color var(--transition-timing) var(--transition-easing);
+            }
+        }
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &--loaded {
+        .setetres__letter div {
+            &::before,
+            &::after {
+                transition-delay: 0ms;
+            }
+        }
+    }
+}

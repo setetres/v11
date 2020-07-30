@@ -1,45 +1,68 @@
 <template>
-    <section class="section section--veeews">
-        <div>
-            <div class="veeews">
-                <p><a href="https://instagram.com/ar/836850480132886/" class="link" target="_blank" rel="noopener">XXXXXXXOOO-001</a></p>
-                <small>1.</small>
-            </div>
-            <hr>
-            <div class="veeews">
-                <p><a href="https://instagram.com/ar/223386212415107/" class="link" target="_blank" rel="noopener">XXXXXXXOOO-002</a></p>
-                <small>2.</small>
-            </div>
-            <hr>
-            <div class="veeews">
-                <p><a href="https://instagram.com/ar/2618475055057992/" class="link" target="_blank" rel="noopener">XXXXXXXOOO-003</a></p>
-                <small>3.</small>
-            </div>
-            <hr>
-            <div class="veeews">
-                <p><a href="https://instagram.com/ar/594384131433890/" class="link" target="_blank" rel="noopener">XXXXXXXOOO-004</a></p>
-                <small>4.</small>
-            </div>
-            <hr>
-            <div class="veeews">
-                <p><a href="https://instagram.com/ar/686469515472803/" class="link" target="_blank" rel="noopener">XXXXXXXOOO-005</a></p>
-                <small>5.</small>
-            </div>
-            <hr>
-            <div class="veeews">
-                <p><a href="https://instagram.com/ar/929622894133566/" class="link" target="_blank" rel="noopener">FEIN</a></p>
-                <small>6.</small>
-            </div>
-            <hr>
-            <div class="veeews">
-                <p><a href="https://instagram.com/ar/250083476205178/" class="link" target="_blank" rel="noopener">TRVP</a></p>
-                <small>7.</small>
-            </div>
+    <section class="application__content section-veeews">
+        <div class="veeews-text">
+            <p class="application__content-title">
+                Clear view.
+            </p>
+            <p>
+                That's all there is at the end. Just as it was at the beginning.
+            </p>
+            <small>
+                From the moment of birth, we all begin to die. Call it divinely planned obsolence. Soon or late, beggar or king, death is the end of all things. While life might be seen as a virus infecting the perfect organism of death.<br>
+                - Ø THEOREM
+            </small>
         </div>
-        <div>
+        <div class="veeews veeews--stories">
             <stories :playlist="playlist" />
-            <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem justo, vehicula vitae turpis non, molestie congue ante. Nulla pretium metus sed lacus accumsan, vitae sagittis dolor efficitur. Fusce aliquam eu elit in suscipit.</small>
         </div>
+        <div class="pattern" />
+        <div class="veeews veeews--xxxxxxxooo-001">
+            <a href="https://instagram.com/ar/836850480132886" class="link link--frame" target="_blank" rel="noopener">
+                001
+            </a>
+        </div>
+        <div class="veeews veeews--xxxxxxxooo-002">
+            <a href="https://instagram.com/ar/836850480132886" class="link link--frame" target="_blank" rel="noopener">
+                002
+            </a>
+        </div>
+        <div class="pattern" />
+        <div class="veeews veeews--xxxxxxxooo-004">
+            <a href="https://instagram.com/ar/594384131433890" class="link link--frame" target="_blank" rel="noopener">
+                004
+            </a>
+        </div>
+        <div class="veeews veeews--xxxxxxxooo-003">
+            <a href="https://instagram.com/ar/2618475055057992" class="link link--frame" target="_blank" rel="noopener">
+                003
+            </a>
+        </div>
+        <div class="pattern" />
+        <div class="veeews veeews--fein">
+            <a href="https://instagram.com/ar/929622894133566" class="link link--frame" target="_blank" rel="noopener">
+                FEIN
+            </a>
+        </div>
+        <div class="veeews veeews--xxxxxxxooo-005">
+            <a href="https://instagram.com/ar/686469515472803" class="link link--frame" target="_blank" rel="noopener">
+                005
+            </a>
+        </div>
+        <div class="pattern" />
+        <div class="veeews veeews--trvp">
+            <a href="https://instagram.com/ar/250083476205178" class="link link--frame" target="_blank" rel="noopener">
+                TRVP
+            </a>
+        </div>
+        <div class="veeews veeews--vingtvingt">
+            <a href="https://instagram.com/ar/965617350568430" class="link link--frame" target="_blank" rel="noopener">
+                2020
+            </a>
+        </div>
+        <small>
+            Having fun.<br>
+            More coming soon.
+        </small>
     </section>
 </template>
 <script>
@@ -56,32 +79,36 @@
                     title: 'setetres',
                     stories: [{
                         date: 'XXXXXXXOOO-001',
-                        poster: '/videos/XXXXXXXOOO-001-0-poster.jpg',
-                        src: '/videos/XXXXXXXOOO-001-0.mp4'
+                        poster: '/videos/XXXXXXXOOO-001-poster.jpg',
+                        src: '/videos/XXXXXXXOOO-001.mp4'
                     }, {
                         date: 'XXXXXXXOOO-002',
-                        poster: '/videos/XXXXXXXOOO-002-0-poster.jpg',
-                        src: '/videos/XXXXXXXOOO-002-0.mp4'
+                        poster: '/videos/XXXXXXXOOO-002-poster.jpg',
+                        src: '/videos/XXXXXXXOOO-002.mp4'
                     }, {
                         date: 'XXXXXXXOOO-003',
-                        poster: '/videos/XXXXXXXOOO-003-0-poster.jpg',
-                        src: '/videos/XXXXXXXOOO-003-0.mp4'
+                        poster: '/videos/XXXXXXXOOO-003-poster.jpg',
+                        src: '/videos/XXXXXXXOOO-003.mp4'
                     }, {
                         date: 'XXXXXXXOOO-004',
-                        poster: '/videos/XXXXXXXOOO-004-0-poster.jpg',
-                        src: '/videos/XXXXXXXOOO-004-0.mp4'
+                        poster: '/videos/XXXXXXXOOO-004-poster.jpg',
+                        src: '/videos/XXXXXXXOOO-004.mp4'
                     }, {
                         date: 'XXXXXXXOOO-005',
-                        poster: '/videos/XXXXXXXOOO-005-0-poster.jpg',
-                        src: '/videos/XXXXXXXOOO-005-0.mp4'
+                        poster: '/videos/XXXXXXXOOO-005-poster.jpg',
+                        src: '/videos/XXXXXXXOOO-005.mp4'
                     }, {
                         date: 'FEIN',
-                        poster: '/videos/FEIN-0-poster.jpg',
-                        src: '/videos/FEIN-0.mp4'
+                        poster: '/videos/FEIN-poster.jpg',
+                        src: '/videos/FEIN.mp4'
                     }, {
                         date: 'TRVP',
-                        poster: '/videos/TRVP-0-poster.jpg',
-                        src: '/videos/TRVP-0.mp4'
+                        poster: '/videos/TRVP-poster.jpg',
+                        src: '/videos/TRVP.mp4'
+                    }, {
+                        date: '𝐕𝐈𝐍𝐆𝐓𝐕𝐈𝐍𝐆𝐓',
+                        poster: '/videos/VINGTVINGT-poster.jpg',
+                        src: '/videos/VINGTVINGT.mp4'
                     }]
                 }
             }
@@ -89,16 +116,13 @@
 
         mounted() {
             this.$nextTick(() => {
-                document.querySelector('.logo').classList.add('logo--veeews')
             })
         },
 
         beforeRouteLeave(to, from, next) {
-            setTimeout(function() {
-                document.querySelector('.logo').classList.add('logo--veeews')
-
+            this.$nextTick(() => {
                 next()
-            }, 100)
+            })
         },
 
         head() {

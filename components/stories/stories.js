@@ -43,12 +43,13 @@ export default {
             this.storiesOpen = !this.storiesOpen
 
             if (this.storiesOpen === true) {
+                this.story.muted = false
                 this.play()
             }
 
             if (this.storiesOpen === false) {
-                this.stop()
                 this.story.muted = true
+                this.stop()
             }
         },
 
@@ -62,16 +63,16 @@ export default {
 
             this.story.load()
 
-            this.story.addEventListener('loadstart', (e) => this.loadstart(e))
-            this.story.addEventListener('canplay', (e) => this.canplay(e))
-            this.story.addEventListener('timeupdate', (e) => this.timeupdate(e))
+            this.story.addEventListener('loadstart', this.canplay)
+            this.story.addEventListener('canplay', this.canplay)
+            this.story.addEventListener('timeupdate', this.timeupdate)
         },
 
-        loadstart(e) {
+        loadstart() {
             this.showLoader()
         },
 
-        canplay(e) {
+        canplay() {
             this.hideLoader()
             this.story.muted = false
             this.story.play()
@@ -86,7 +87,7 @@ export default {
         },
 
         timeupdate(e) {
-            const percentage = Math.ceil((100 / this.story.duration) * this.story.currentTime)
+            const percentage = Math.floor((100 / this.story.duration) * this.story.currentTime)
             this.currentStoryWatchedPercentage.style.width = `${percentage}%`
 
             if (percentage === 100) this.next(e)
@@ -96,7 +97,7 @@ export default {
             this.next(e)
         },
 
-        next(e) {
+        next() {
             this.stop()
             this.currentStoryWatchedPercentage.style.width = '100%'
             this.currentStoryIndex++
@@ -112,7 +113,7 @@ export default {
             this.play()
         },
 
-        prev(e) {
+        prev() {
             this.stop()
             this.currentStoryWatchedPercentage.style.width = '0%'
             this.currentStoryIndex--

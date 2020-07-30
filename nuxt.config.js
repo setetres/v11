@@ -33,7 +33,21 @@ export default {
     },
     css: [
         '@/node_modules/normalize.css/normalize.css',
-        '@/assets/application.scss'
+        '@/assets/application.scss',
+        '@/assets/about.scss',
+        '@/assets/archive.scss',
+        '@/assets/dark-mode.scss',
+        '@/assets/embed.scss',
+        '@/assets/home.scss',
+        '@/assets/inkstarter.scss',
+        '@/assets/lifestream.scss',
+        '@/assets/link.scss',
+        '@/assets/mncrft.scss',
+        '@/assets/music.scss',
+        '@/assets/setetres.scss',
+        '@/assets/stories.scss',
+        '@/assets/veeews.scss',
+        '@/assets/xxxxxxxooo.scss'
     ],
     loading: {
         color: '#000000',

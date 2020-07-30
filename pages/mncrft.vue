@@ -1,26 +1,42 @@
 <template>
-    <section class="section section--mncrft">
-        <div class="cover">
-            <div class="cover__content">
-                <div id="skin" />
-            </div>
+    <section class="application__content application__content--mncrft">
+        <div class="application__content-cover">
+            <div id="skin" class="skin" />
         </div>
-        <p class="section__title">Got stung by the Minecraft fever.</p>
-        <p>I'm not trying to be a <em>Redstone Mad Scientist</em> or a <em>1:1 Scale 3D Pixel Art Freaking Builder</em>. This is not an attempt to become a Minecraft professional. I'm just trying to have fun. Everything here is a work in progress and nothing will ever be finished. Might add other screenshots and/or projects, who knows...</p>
-        <img src="/images/mncrft-01.jpg" class="image-hover">
-        <img src="/images/mncrft-02.jpg" class="image-hover">
-        <img src="/images/mncrft-03.jpg" class="image-hover">
-        <img src="/images/mncrft-04.jpg" class="image-hover">
-        <img src="/images/mncrft-05.jpg" class="image-hover">
-        <img src="/images/mncrft-06.jpg" class="image-hover">
+        <p class="application__content-title">
+            Life with shaders.
+        </p>
+        <p>
+            I'm not trying to be a <em>Redstone Mad Scientist</em> or a <em>1:1 Scale 3D Pixel Art Freaking Builder</em>. This is not an attempt to become a Minecraft professional. Everything here is a work in progress. Might add other screenshots, who knows...
+        </p>
+        <p>
+            <img src="/images/mncrft-01.jpg" alt="Minecraft Screenshot">
+        </p>
+        <p>
+            <img src="/images/mncrft-02.jpg" alt="Minecraft Screenshot">
+        </p>
+        <p>
+            <img src="/images/mncrft-03.jpg" alt="Minecraft Screenshot">
+        </p>
+        <p>
+            <img src="/images/mncrft-04.jpg" alt="Minecraft Screenshot">
+        </p>
+        <p>
+            <img src="/images/mncrft-05.jpg" alt="Minecraft Screenshot">
+        </p>
+        <p>
+            <img src="/images/mncrft-06.jpg" alt="Minecraft Screenshot">
+        </p>
+        <small>
+            Creative mode.<br>
+            ∞...
+        </small>
     </section>
 </template>
 <script>
     export default {
         mounted() {
             this.$nextTick(() => {
-                document.querySelector('.logo').classList.add('logo--mncrft')
-
                 var skinview3d = require('skinview3d')
                 var skinViewer, control, handles = {}
                 var skinParts = {}
@@ -89,11 +105,9 @@
         },
 
         beforeRouteLeave(to, from, next) {
-            setTimeout(function() {
-                document.querySelector('.logo').classList.remove('logo--mncrft')
-
+            this.$nextTick(() => {
                 next()
-            }, 100)
+            })
         },
 
         head() {

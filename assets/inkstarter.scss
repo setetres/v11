@@ -1,0 +1,40 @@
+@import 'placeholder';
+
+.application__content--inkstarter {
+    .application__content-cover {
+        @extend %background-inkstarter;
+
+        svg {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 27%;
+        }
+    }
+}
+
+.winners {
+    display: grid;
+    gap: var(--gutter);
+    grid-column: span 5;
+    grid-template-columns: 1fr 1fr;
+
+    img {
+        grid-column: span 1;
+    }
+}
+
+.stats {
+    display: grid;
+    gap: 0 var(--gutter);
+    grid-column: span 5;
+    grid-template-columns: 1fr 1fr;
+
+    p {
+        grid-column: span 2;
+
+        @media (min-width: 768px) {
+            grid-column: span 1;
+        }
+    }
+}

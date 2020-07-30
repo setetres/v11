@@ -1,121 +1,129 @@
 <template>
-    <div class="application">
-        <div class="gutter">
-            <div class="application__container">
-                <div class="application__content">
-                    <hr>
-                    <small>Content</small>
-                    <nuxt />
-                </div>
-                <div class="application__sidebar">
-                    <input id="dark-mode" type="checkbox" class="dark-mode-checkbox">
-                    <hr>
-                    <small>v. eleven</small>
-                    <h1 class="logo">
-                        <nuxt-link to="/">
-                            <div class="setetres setetres--loading">
-                                <div class="setetres__letter setetres__letter--s">
-                                    <div />
-                                    <div />
-                                    <div />
-                                    <div />
-                                </div>
-                                <div class="setetres__letter setetres__letter--e">
-                                    <div />
-                                    <div />
-                                </div>
-                                <div class="setetres__letter setetres__letter--t">
-                                    <div />
-                                </div>
-                                <div class="setetres__letter setetres__letter--e">
-                                    <div />
-                                    <div />
-                                </div>
-                                <div class="setetres__letter setetres__letter--t">
-                                    <div />
-                                </div>
-                                <div class="setetres__letter setetres__letter--r">
-                                    <div />
-                                    <div />
-                                    <div />
-                                </div>
-                                <div class="setetres__letter setetres__letter--e">
-                                    <div />
-                                    <div />
-                                </div>
-                                <div class="setetres__letter setetres__letter--s">
-                                    <div />
-                                    <div />
-                                    <div />
-                                    <div />
-                                </div>
+    <main class="application">
+        <nuxt />
+        <aside class="application__sidebar">
+            <header>
+                <h1 class="application__logo">
+                    <nuxt-link to="/">
+                        <div class="setetres setetres--loading">
+                            <div class="setetres__letter setetres__letter--s">
+                                <div />
+                                <div />
+                                <div />
+                                <div />
                             </div>
+                            <div class="setetres__letter setetres__letter--e">
+                                <div />
+                                <div />
+                            </div>
+                            <div class="setetres__letter setetres__letter--t">
+                                <div />
+                            </div>
+                            <div class="setetres__letter setetres__letter--e">
+                                <div />
+                                <div />
+                            </div>
+                            <div class="setetres__letter setetres__letter--t">
+                                <div />
+                            </div>
+                            <div class="setetres__letter setetres__letter--r">
+                                <div />
+                                <div />
+                                <div />
+                            </div>
+                            <div class="setetres__letter setetres__letter--e">
+                                <div />
+                                <div />
+                            </div>
+                            <div class="setetres__letter setetres__letter--s">
+                                <div />
+                                <div />
+                                <div />
+                                <div />
+                            </div>
+                        </div>
+                    </nuxt-link>
+                </h1>
+            </header>
+            <nav class="application__sidebar-menu">
+                <ul>
+                    <li>
+                        <nuxt-link to="/about" class="link link--about" active-class="link--active">
+                            <span tabindex="-1">
+                                <small>1.</small>
+                                <span class="link__icon" />
+                                About
+                            </span>
                         </nuxt-link>
-                    </h1>
-                    <nav class="menu">
-                        <ul>
-                            <li>
-                                <nuxt-link to="/about" class="link link--internal link--about" active-class="link--active">
-                                    <small>1.</small>
-                                    <span class="link__icon" />
-                                    About
-                                </nuxt-link>
-                            </li>
-                            <li>
-                                <nuxt-link to="/archive" class="link link--internal link--archive" active-class="link--active">
-                                    <small>2.</small>
-                                    <span class="link__icon" />
-                                    Archive
-                                </nuxt-link>
-                            </li>
-                            <li>
-                                <nuxt-link to="/inkstarter" class="link link--internal link--inkstarter" active-class="link--active">
-                                    <small>3.</small>
-                                    <span class="link__icon" />
-                                    InkStarter
-                                </nuxt-link>
-                            </li>
-                            <li>
-                                <nuxt-link to="/lifestream" class="link link--internal link--lifestream" active-class="link--active">
-                                    <small>4.</small>
-                                    <span class="link__icon" />
-                                    Lifestream
-                                </nuxt-link>
-                            </li>
-                            <li>
-                                <nuxt-link to="/mncrft" class="link link--internal link--mncrft" active-class="link--active">
-                                    <small>5.</small>
-                                    <span class="link__icon" />
-                                    MNCRFT
-                                </nuxt-link>
-                            </li>
-                            <li>
-                                <nuxt-link to="/music" class="link link--internal link--music" active-class="link--active">
-                                    <small>6.</small>
-                                    <span class="link__icon" />
-                                    Music
-                                </nuxt-link>
-                            </li>
-                            <li>
-                                <nuxt-link to="/veeews" class="link link--internal link--veeews" active-class="link--active">
-                                    <small>7.</small>
-                                    <span class="link__icon" />
-                                    Veeews
-                                </nuxt-link>
-                            </li>
-                            <li>
-                                <nuxt-link to="/xxxxxxxooo" class="link link--internal link--xxxxxxxooo" active-class="link--active">
-                                    <small>8.</small>
-                                    <span class="link__icon" />
-                                    XO
-                                </nuxt-link>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
+                    </li>
+                    <li>
+                        <nuxt-link to="/archive" class="link link--archive" active-class="link--active">
+                            <span tabindex="-1">
+                                <small>2.</small>
+                                <span class="link__icon" />
+                                Archive
+                            </span>
+                        </nuxt-link>
+                    </li>
+                    <li>
+                        <nuxt-link to="/inkstarter" class="link link--inkstarter" active-class="link--active">
+                            <span tabindex="-1">
+                                <small>3.</small>
+                                <span class="link__icon" />
+                                InkStarter
+                            </span>
+                        </nuxt-link>
+                    </li>
+                    <li>
+                        <nuxt-link to="/lifestream" class="link link--lifestream" active-class="link--active">
+                            <span tabindex="-1">
+                                <small>4.</small>
+                                <span class="link__icon" />
+                                Lifestream
+                            </span>
+                        </nuxt-link>
+                    </li>
+                    <li>
+                        <nuxt-link to="/mncrft" class="link link--mncrft" active-class="link--active">
+                            <span tabindex="-1">
+                                <small>5.</small>
+                                <span class="link__icon" />
+                                MNCRFT
+                            </span>
+                        </nuxt-link>
+                    </li>
+                    <li>
+                        <nuxt-link to="/music" class="link link--music" active-class="link--active">
+                            <span tabindex="-1">
+                                <small>6.</small>
+                                <span class="link__icon" />
+                                Music
+                            </span>
+                        </nuxt-link>
+                    </li>
+                    <li>
+                        <nuxt-link to="/veeews" class="link link--veeews" active-class="link--active">
+                            <span tabindex="-1">
+                                <small>7.</small>
+                                <span class="link__icon" />
+                                Veeews
+                            </span>
+                        </nuxt-link>
+                    </li>
+                    <li>
+                        <nuxt-link to="/xxxxxxxooo" class="link link--xxxxxxxooo" active-class="link--active">
+                            <span tabindex="-1">
+                                <small>8.</small>
+                                <span class="link__icon" />
+                                XO
+                            </span>
+                        </nuxt-link>
+                    </li>
+                </ul>
+            </nav>
+            <input id="dark-mode" type="checkbox" class="dark-mode-checkbox">
+        </aside>
+    </main>
 </template>
 <script>
     export default {
@@ -125,18 +133,18 @@
                 var checkbox = document.querySelector('.dark-mode-checkbox')
                 var body = document.body
 
-                checkbox.checked = localStorage.getItem('darkMode') === 'true'
+                checkbox.checked = localStorage.getItem('darkModeST') === 'true'
 
                 function bodyClass() {
                     if (checkbox.checked) {
-                        body.classList.add('dark-mode')
+                        document.getElementsByTagName( 'html' )[0].classList.add('dark-mode')
                     } else {
-                        body.classList.remove('dark-mode')
+                        document.getElementsByTagName( 'html' )[0].classList.remove('dark-mode')
                     }
                 }
 
                 checkbox.addEventListener('change', function (event) {
-                    localStorage.setItem('darkMode', event.currentTarget.checked)
+                    localStorage.setItem('darkModeST', event.currentTarget.checked)
                     bodyClass()
                 })
 

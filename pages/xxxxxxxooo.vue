@@ -1,6 +1,6 @@
 <template>
-    <section class="section section--xxxxxxxooo">
-        <div class="cover">
+    <section class="application__content application__content--xxxxxxxooo">
+        <div class="application__content-cover">
             <div class="cover__content">
                 <div id="revue-embed">
                     <form id="revue-form" action="http://ooo.xxxxxxx.ooo/add_subscriber" method="post" name="revue-form" target="_blank">
@@ -11,23 +11,26 @@
                 </div>
             </div>
         </div>
-        <small>Weekly newsletter. Every friday. 10:00AM BRT.</small>
+        <p class="application__content-title">
+            Weekly newsletter.
+        </p>
+        <small>
+            Every friday.<br>
+            10:00AM BRT.
+        </small>
     </section>
 </template>
 <script>
     export default {
         mounted() {
             this.$nextTick(() => {
-                document.querySelector('.logo').classList.add('logo--xxxxxxxooo')
             })
         },
 
         beforeRouteLeave(to, from, next) {
-            setTimeout(function() {
-                document.querySelector('.logo').classList.remove('logo--xxxxxxxooo')
-
+            this.$nextTick(() => {
                 next()
-            }, 100)
+            })
         },
 
         head() {

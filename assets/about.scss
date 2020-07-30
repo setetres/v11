@@ -1,0 +1,24 @@
+@import 'placeholder';
+
+.sttrs-svg {
+    width: 73px;
+
+    line,
+    path {
+        fill: none;
+        stroke: var(--color-foreground);
+        stroke-dasharray: 3000;
+        stroke-dashoffset: 6000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 15;
+    }
+
+    path {
+        animation: sttrs-svg 6666ms cubic-bezier(.4, 0, .14, 1) forwards infinite;
+    }
+
+    line {
+        animation: sttrs-svg 6666ms cubic-bezier(.4, 0, .14, 1) 666ms forwards infinite;
+    }
+}

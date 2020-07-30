@@ -1,0 +1,76 @@
+@import 'placeholder';
+
+.application__content--xxxxxxxooo {
+    .application__content-cover {
+        @extend %background-xxxxxxxooo;
+    }
+}
+
+#revue-embed {
+    left: 5%;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+
+    @media (min-width: 1024px) {
+        left: 10%;
+        right: 10%;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+        }
+
+        label {
+            height: 100%;
+            left: 0;
+            position: absolute;
+            text-indent: -999999px;
+            top: 0;
+            width: 100%;
+            z-index: 1;
+        }
+    }
+}
+
+#member_email {
+    width: 100%;
+    z-index: 2;
+}
+
+#member_submit {
+    cursor: pointer;
+    z-index: 3;
+}
+
+#member_email,
+#member_submit {
+    appearance: none;
+    background-color: var(--color-foreground);
+    border: 0;
+    border-radius: 0;
+    color: var(--color-background);
+    font-size: calc(var(--font-size) / 2);
+    font-style: italic;
+    letter-spacing: 0;
+    line-height: 1.5;
+    padding: var(--spacer-4) var(--spacer-8);
+    position: relative;
+    text-align: left;
+
+    @media (min-width: 768px) {
+        font-size: var(--font-size);
+        letter-spacing: calc(var(--letter-spacing) * -1);
+    }
+
+    &:focus {
+        outline: 2px solid var(--color-primary);
+        outline-offset: calc(calc(var(--spacer-8) / 2) * -1);
+    }
+}
