@@ -79,7 +79,7 @@ export default {
         },
 
         showLoader() {
-            this.storyLoader.style.display = 'initial'
+            this.storyLoader.style.display = 'block'
         },
 
         hideLoader() {
