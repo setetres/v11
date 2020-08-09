@@ -1,6 +1,5 @@
 .link {
     color: var(--color-foreground);
-    display: inline-flex;
     outline: none;
     transition:
         color var(--transition-timing) var(--transition-easing),
@@ -8,7 +7,7 @@
 
     &--frame {
         border: 1px solid transparent;
-        display: flex;
+        display: block;
 
         &:focus {
             outline: var(--spacer-2) solid var(--color-primary);
@@ -24,6 +23,7 @@
         filter: grayscale(1);
         flex-shrink: 0;
         height: var(--font-size-menu);
+        image-rendering: pixelated;
         margin-right: var(--spacer-3);
         width: var(--font-size-menu);
     }

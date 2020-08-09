@@ -13,19 +13,19 @@
             Without knowing anything about drawing and even less about tattooing.
         </p>
         <p>
-            <img src="/images/inkstarter-02.jpg" alt="InkStarter Challenge Page">
+            <img src="/images/inkstarter-02.jpg" alt="InkStarter Challenge Page" width="1280" height="4060">
         </p>
         <div class="winners">
-            <img src="/images/inkstarter-winner-01.png" alt="Winner #1">
-            <img src="/images/inkstarter-winner-02.png" alt="Winner #2">
-            <img src="/images/inkstarter-winner-03.png" alt="Winner #3">
-            <img src="/images/inkstarter-winner-04.png" alt="Winner #4">
-            <img src="/images/inkstarter-winner-05.png" alt="Winner #5">
-            <img src="/images/inkstarter-winner-06.png" alt="Winner #6">
-            <img src="/images/inkstarter-winner-07.png" alt="Winner #7">
+            <img src="/images/inkstarter-winner-01.png" alt="Winner #1" width="700" height="700">
+            <img src="/images/inkstarter-winner-02.png" alt="Winner #2" width="700" height="700">
+            <img src="/images/inkstarter-winner-03.png" alt="Winner #3" width="700" height="700">
+            <img src="/images/inkstarter-winner-04.png" alt="Winner #4" width="700" height="700">
+            <img src="/images/inkstarter-winner-05.png" alt="Winner #5" width="700" height="700">
+            <img src="/images/inkstarter-winner-06.png" alt="Winner #6" width="700" height="700">
+            <img src="/images/inkstarter-winner-07.png" alt="Winner #7" width="700" height="700">
         </div>
         <p>
-            <img src="/images/inkstarter-03.jpg" alt="InkStarter Memorial Page">
+            <img src="/images/inkstarter-03.jpg" alt="InkStarter Memorial Page" width="1920" height="1200">
         </p>
         <p class="application__content-title">
             Stats

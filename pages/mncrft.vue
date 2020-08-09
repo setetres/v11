@@ -60,8 +60,8 @@
 
                     skinViewer = new skinview3d.SkinViewer({
                         domElement: document.getElementById("skin"),
-                        width: 500,
-                        height: 500,
+                        width: 300,
+                        height: 300,
                         skinUrl: chooseSkin
                     })
 

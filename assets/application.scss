@@ -44,10 +44,9 @@
 html {
     background-color: var(--color-background);
     box-sizing: border-box;
-    -moz-osx-font-smoothing: none;
-    -webkit-font-smoothing: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     height: 100%;
-    image-rendering: pixelated;
     overflow-x: hidden;
     overflow-y: scroll;
     -webkit-text-size-adjust: 100%;
@@ -92,7 +91,6 @@ html {
 img {
     display: block;
     height: auto;
-    image-rendering: auto;
     width: 100%;
 }
 
@@ -113,21 +111,21 @@ small {
     display: grid;
     gap: var(--gutter);
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr auto;
+    grid-template-rows: min-content min-content;
     margin: 0 auto;
     max-width: 100%;
     padding: var(--gutter);
     width: var(--container-width);
 
     @media (min-width: 1200px) {
-        grid-template-columns: 1fr auto;
-        grid-template-rows: 1fr;
+        grid-template-columns: 1fr min-content;
+        grid-template-rows: min-content;
     }
 
     &__logo {
         background-color: var(--color-foreground);
         display: flex;
-        margin: 0 0 var(--gutter) 0;
+        margin: 0;
         position: relative;
         transition: background-color var(--transition-timing) var(--transition-easing);
         width: 180px;
@@ -162,13 +160,13 @@ small {
     &__content,
     &__sidebar {
         border-top: var(--setetres-font-weight-half) solid var(--color-foreground);
+        display: grid;
+        gap: var(--gutter);
         padding-top: var(--gutter);
     }
 
     &__content {
-        display: grid;
         font-size: var(--font-size);
-        gap: var(--gutter);
         grid-template-columns: repeat(5, 1fr);
         order: 2;
 
@@ -206,6 +204,7 @@ small {
     }
 
     &__sidebar {
+        grid-template-rows: min-content min-content;
         order: 1;
 
         @media (min-width: 1200px) {

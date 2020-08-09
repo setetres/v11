@@ -36,6 +36,7 @@ html.dark-mode {
         display: flex;
         flex-shrink: 0;
         height: var(--font-size-menu);
+        image-rendering: pixelated;
         line-height: var(--font-size-menu);
         pointer-events: all;
         position: absolute;

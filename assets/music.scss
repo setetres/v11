@@ -1,3 +1,9 @@
+.application__content--music {
+    > p {
+        text-align: center;
+    }
+}
+
 .music {
     border-bottom: var(--setetres-font-weight-half) solid var(--color-foreground);
     display: grid;
@@ -142,11 +148,5 @@
         &:nth-child(20) {
             animation-delay: 1050ms;
         }
-    }
-}
-
-.application__content--music {
-    > p {
-        text-align: center;
     }
 }
