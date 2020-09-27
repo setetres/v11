@@ -3,7 +3,7 @@ const StyleLintPlugin = require('stylelint-webpack-plugin')
 const webpack = require('webpack')
 
 export default {
-    mode: 'spa',
+    ssr: false,
     head: {
         htmlAttrs: {
             lang: 'en',

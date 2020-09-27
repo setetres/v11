@@ -24,6 +24,11 @@
                 <polyline points="389.4,2.5 389.4,169.5 408.7,151.2" />
             </svg>
         </p>
+        <div class="music">
+            <div class="embed">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/82A_sMmKGGI" frameborder="0" allowfullscreen />
+            </div>
+        </div>
         <p>
             <strong class="application__content-title">
                 VINGT-VINGT
