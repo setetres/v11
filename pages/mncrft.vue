@@ -35,6 +35,18 @@
 </template>
 <script>
     export default {
+
+        beforeRouteLeave(to, from, next) {
+            this.$nextTick(() => {
+                next()
+            })
+        },
+
+        head() {
+            return {
+                title: 'Sete Três — MNCRFT'
+            }
+        },
         mounted() {
             this.$nextTick(() => {
                 var skinview3d = require('skinview3d')
@@ -102,18 +114,6 @@
                 walk()
                 rotate()
             })
-        },
-
-        beforeRouteLeave(to, from, next) {
-            this.$nextTick(() => {
-                next()
-            })
-        },
-
-        head() {
-            return {
-                title: 'Sete Três — MNCRFT'
-            }
         }
     }
 </script>

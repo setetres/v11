@@ -127,6 +127,12 @@
 </template>
 <script>
     export default {
+
+        head() {
+            return {
+                title: 'Sete Três'
+            }
+        },
         mounted() {
             this.$nextTick(() => {
                 var setetres = document.querySelector('.setetres')
@@ -162,12 +168,6 @@
                     setetres.classList.add('setetres--loaded')
                 }, 3000)
             })
-        },
-
-        head() {
-            return {
-                title: 'Sete Três'
-            }
         }
     }
 </script>

@@ -14,10 +14,6 @@
 </template>
 <script>
     export default {
-        mounted() {
-            this.$nextTick(() => {
-            })
-        },
 
         beforeRouteLeave(to, from, next) {
             this.$nextTick(() => {
@@ -29,6 +25,10 @@
             return {
                 title: 'Sete Três — Lifestream'
             }
+        },
+        mounted() {
+            this.$nextTick(() => {
+            })
         }
     }
 </script>

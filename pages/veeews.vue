@@ -73,6 +73,12 @@
             Stories
         },
 
+        beforeRouteLeave(to, from, next) {
+            this.$nextTick(() => {
+                next()
+            })
+        },
+
         data() {
             return {
                 playlist: {
@@ -114,21 +120,15 @@
             }
         },
 
-        mounted() {
-            this.$nextTick(() => {
-            })
-        },
-
-        beforeRouteLeave(to, from, next) {
-            this.$nextTick(() => {
-                next()
-            })
-        },
-
         head() {
             return {
                 title: 'Sete Três — Veeews'
             }
+        },
+
+        mounted() {
+            this.$nextTick(() => {
+            })
         }
     }
 </script>
