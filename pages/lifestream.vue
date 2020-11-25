@@ -23,7 +23,7 @@
 
         head() {
             return {
-                title: 'Sete Três — Lifestream'
+                title: 'Sete Três — v11'
             }
         },
         mounted() {

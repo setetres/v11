@@ -44,7 +44,7 @@
 
         head() {
             return {
-                title: 'Sete Três — MNCRFT'
+                title: 'Sete Três — v11'
             }
         },
         mounted() {

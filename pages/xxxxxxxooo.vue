@@ -31,7 +31,7 @@
 
         head() {
             return {
-                title: 'Sete Três — XXXXXXXOOO'
+                title: 'Sete Três — v11'
             }
         },
         mounted() {

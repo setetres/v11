@@ -329,7 +329,7 @@
 
         head() {
             return {
-                title: 'Sete Três — Music'
+                title: 'Sete Três — v11'
             }
         },
 

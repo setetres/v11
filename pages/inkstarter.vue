@@ -69,7 +69,7 @@
 
         head() {
             return {
-                title: 'Sete Três — InkStarter'
+                title: 'Sete Três — v11'
             }
         },
         mounted() {
