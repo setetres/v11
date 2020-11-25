@@ -130,7 +130,7 @@
 
         head() {
             return {
-                title: 'Sete Três'
+                title: 'Sete Três — v11'
             }
         },
         mounted() {
